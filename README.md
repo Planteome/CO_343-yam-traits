@@ -1,0 +1,1 @@
+# ibp-yam-traits
