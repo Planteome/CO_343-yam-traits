@@ -5190,13 +5190,6 @@ relationship: scale_of CO_343:0010099 ! presence of bulbil  - estimation
 relationship: scale_of CO_343:0010153 ! tuber flesh cross section color uniformity-estimation
 
 [Term]
-id: CO_343:0100007:0
-name: Absent
-namespace: YamScale
-synonym: "0" EXACT []
-is_a: CO_343:0100007 ! 0-1 scale
-
-[Term]
 id: CO_343:0100007:1 
 name: Present
 namespace: YamScale
@@ -5218,41 +5211,6 @@ relationship: scale_of CO_343:0010163 ! taste of pounded yam - estimation
 relationship: scale_of CO_343:0010165 ! stem color - estimation
 relationship: scale_of CO_343:0010175 ! leaf color - estimation
 relationship: scale_of CO_343:0010175 ! leaf color - estimation
-
-[Term]
-id: CO_343:0100008:1
-name: Green
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100008 ! 1-5 scale
-
-[Term]
-id: CO_343:0100008:2
-name: Purplish green
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100008 ! 1-5 scale
-
-[Term]
-id: CO_343:0100008:3
-name: Brownish green
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100008 ! 1-5 scale
-
-[Term]
-id: CO_343:0100008:4
-name: Dark brown
-namespace: YamScale
-synonym: "4" EXACT []
-is_a: CO_343:0100008 ! 1-5 scale
-
-[Term]
-id: CO_343:0100008:5
-name: Purple
-namespace: YamScale
-synonym: "5" EXACT []
-is_a: CO_343:0100008 ! 1-5 scale
 
 [Term]
 id: CO_343:0100009
@@ -5287,27 +5245,6 @@ relationship: scale_of CO_343:0010177 ! leaf hairiness - estimation
 relationship: scale_of CO_343:0010177 ! leaf hairiness - estimation
 
 [Term]
-id: CO_343:0100010:0
-name: Absent
-namespace: YamScale
-synonym: "0" EXACT []
-is_a: CO_343:0100010 ! 0-2 scale
-
-[Term]
-id: CO_343:0100010:1
-name: Sparse
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100010 ! 0-2 scale
-
-[Term]
-id: CO_343:0100010:2
-name: Dense
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100010 ! 0-2 scale
-
-[Term]
 id: CO_343:0100011
 name: 1-3 general scale
 namespace: YamScale
@@ -5320,27 +5257,6 @@ relationship: scale_of CO_343:0010146 ! corm type-estimation
 relationship: scale_of CO_343:0010162 ! stickiness of pounded yam - estimation
 
 [Term]
-id: CO_343:0100011:1
-name: obtuse
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100011 ! 1-3 general scale
-
-[Term]
-id: CO_343:0100011:2
-name: acute
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100011 ! 1-3 general scale
-
-[Term]
-id: CO_343:0100011:3
-name: emarginate
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100011 ! 1-3 general scale
-
-[Term]
 id: CO_343:0100012
 name: 1-7 general scale
 namespace: YamScale
@@ -5349,34 +5265,6 @@ relationship: scale_of CO_343:0010019 ! leaf shape-estimation
 relationship: scale_of CO_343:0010149 ! tuber flesh color head portion - estimation
 relationship: scale_of CO_343:0010150 ! tuber flesh color middle portion - estimation
 relationship: scale_of CO_343:0010151 ! tuber flesh color lower or tail portion- estimation
-
-[Term]
-id: CO_343:0100012:1
-name: Ovate
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100012 ! 1-7 general scale
-
-[Term]
-id: CO_343:0100012:3
-name: Cordate
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100012 ! 1-7 general scale
-
-[Term]
-id: CO_343:0100012:5
-name: Sagittate
-namespace: YamScale
-synonym: "5" EXACT []
-is_a: CO_343:0100012 ! 1-7 general scale
-
-[Term]
-id: CO_343:0100012:7
-name: Hastate
-namespace: YamScale
-synonym: "7" EXACT []
-is_a: CO_343:0100012 ! 1-7 general scale
 
 [Term]
 id: CO_343:0100013
@@ -5410,34 +5298,6 @@ relationship: scale_of CO_343:0010093 ! bulbil shape-estimation
 relationship: scale_of CO_343:0010147 ! dormancy period -estimation
 
 [Term]
-id: CO_343:0100016:1
-name: One vine, palmiform, many branches and erect.
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100016 ! 1-4 general scale
-
-[Term]
-id: CO_343:0100016:2
-name: One vine palmiform erect, large and few branches
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100016 ! 1-4 general scale
-
-[Term]
-id: CO_343:0100016:3
-name: Several vines, shorts, many branches, palmiform and erects
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100016 ! 1-4 general scale
-
-[Term]
-id: CO_343:0100016:4
-name: One large vine, few branches, palmiform and postrated
-namespace: YamScale
-synonym: "4" EXACT []
-is_a: CO_343:0100016 ! 1-4 general scale
-
-[Term]
 id: CO_343:0100017
 name: 0-1 nominal scale
 namespace: YamScale
@@ -5445,39 +5305,11 @@ is_a: CO_343:1000017 ! Nominal
 relationship: scale_of CO_343:0010028 ! twining habit-estimation
 
 [Term]
-id: CO_343:0100017:0
-name: No
-namespace: YamScale
-synonym: "0" EXACT []
-is_a: CO_343:0100017 ! 0-1 nominal scale
-
-[Term]
-id: CO_343:0100017:1
-name: Yes
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100017 ! 0-1 nominal scale
-
-[Term]
 id: CO_343:0100018
 name: 1-2 nominal scale
 namespace: yamScale
 is_a: CO_343:1000017 ! Nominal
 relationship: scale_of CO_343:0010029 ! twining direction-estimation
-
-[Term]
-id: CO_343:0100018:1
-name: Clockwise (climbing to the left)
-namespace: yamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100018 ! 1-2 nominal scale
-
-[Term]
-id: CO_343:0100018:2
-name: Anticlockwise (climbing to the right)
-namespace: yamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100018 ! 1-2 nominal scale
 
 [Term]
 id: CO_343:0100019
@@ -5499,34 +5331,6 @@ name: 0-9 scale
 namespace: YamScale
 is_a: CO_343:1000015 ! Ordinal
 relationship: scale_of CO_343:0010039 ! flowering intensity - estimation
-
-[Term]
-id: CO_343:0100021:0
-name: No flower or bud. No inflorescence and not flowering at all
-namespace: YamScale
-synonym: "0" EXACT []
-is_a: CO_343:0100021 ! 0-9 scale
-
-[Term]
-id: CO_343:0100021:1
-name: aborted flower. Presence of small or rudimentary inflorescences/flowers that can show an abortion or abscission point at joint of the pedicel
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100021 ! 0-9 scale
-
-[Term]
-id: CO_343:0100021:3
-name: Low (flowering is scare with the presence of few flowers mostly less than 10 inflorescences per plant)
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100021 ! 0-9 scale
-
-[Term]
-id: CO_343:0100021:5
-name: Moderate (producing some flowers mostly 10-29 inflorescences per plant)
-namespace: YamScale
-synonym: "5" EXACT []
-is_a: CO_343:0100021 ! 0-9 scale
 
 [Term]
 id: CO_343:0100021:7 
@@ -5558,27 +5362,6 @@ relationship: scale_of CO_343:0010160 ! smoothness of pounded yam- estimation
 relationship: scale_of CO_343:0010170 ! leaf position - estimation
 
 [Term]
-id: CO_343:0100022:1
-name: spike
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100022 ! 1-3 scale
-
-[Term]
-id: CO_343:0100022:2
-name: raceme
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100022 ! 1-3 scale
-
-[Term]
-id: CO_343:0100022:3
-name: panicle
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100022 ! 1-3 scale
-
-[Term]
 id: CO_343:0100023
 name: 1-4 scale
 namespace: YamScale
@@ -5591,74 +5374,11 @@ relationship: scale_of CO_343:0010176 ! vein color - estimation
 relationship: scale_of CO_343:0010176 ! vein color - estimation
 
 [Term]
-id: CO_343:0100023:1
-name: Controlled cross pollination (transfer of pollen grains from the anther of a flower to the stigma of a flower of a different plant of the same species)
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100023 ! 1-4 scale
-
-[Term]
-id: CO_343:0100023:2
-name: Self pollination (the transfer of pollen grains from the anther to the stigma of the same flower)
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100023 ! 1-4 scale
-
-[Term]
-id: CO_343:0100023:3
-name: Bulk pollination (Pollen from the selected plant can be bulked to pollinate these some plants)
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100023 ! 1-4 scale
-
-[Term]
-id: CO_343:0100023:4
-name: Open pollination (Pollenation happen naturally from any plant )
-namespace: YamScale
-synonym: "4" EXACT []
-is_a: CO_343:0100023 ! 1-4 scale
-
-[Term]
 id: CO_343:0100024
 name: 0-4 scale
 namespace: YamScale
 is_a: CO_343:1000017 ! Nominal
 relationship: scale_of CO_343:0010045 ! plant or flower sex-estimation
-
-[Term]
-id: CO_343:0100024:0
-name: Non flowering
-namespace: YamScale
-synonym: "0" EXACT []
-is_a: CO_343:0100024 ! 0-4 scale
-
-[Term]
-id: CO_343:0100024:1
-name: Male flower
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100024 ! 0-4 scale
-
-[Term]
-id: CO_343:0100024:2
-name: female flower
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100024 ! 0-4 scale
-
-[Term]
-id: CO_343:0100024:3
-name: Monoecious male (m>f)
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100024 ! 0-4 scale
-
-[Term]
-id: CO_343:0100024:4
-name: Monoecious female(f>m)
-namespace: YamScale
-synonym: "4" EXACT []
-is_a: CO_343:0100024 ! 0-4 scale
 
 [Term]
 id: CO_343:0100025
@@ -5683,20 +5403,6 @@ relationship: scale_of CO_343:0010055 ! fruit development intensity-estimation
 relationship: scale_of CO_343:0010128 ! tuber surface texture - estimation
 relationship: scale_of CO_343:0010159 ! springiness of pounded yam-estimation
 relationship: scale_of CO_343:0010161 ! presence of fiber strand-estimation
-
-[Term]
-id: CO_343:0100027:1
-name: mostly well developed fruits
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100027 ! 1-2 scale
-
-[Term]
-id: CO_343:0100027:2
-name: Poorly developed fruits
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100027 ! 1-2 scale
 
 [Term]
 id: CO_343:0100028
@@ -5738,41 +5444,6 @@ is_a: CO_343:1000015 ! Ordinal
 relationship: scale_of CO_343:0010074 ! maturity class - estimation
 
 [Term]
-id: CO_343:0100032:1
-name: Very Late (all the plants in a plot still show green foliage (green leaf and vine)
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100032 ! 1-9 scale
-
-[Term]
-id: CO_343:0100032:3
-name: Late (75% of the plants in a plot with still green foliage but few plants (upto 25% plants in a plot) showing up to 25% of leaves senescence
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100032 ! 1-9 scale
-
-[Term]
-id: CO_343:0100032:5
-name: Medium (50% of the plants are still green or on the onset of senescence. Only 50% plants in a plot with 25% of the leaves showing senescence or slight yellowing
-namespace: YamScale
-synonym: "5" EXACT []
-is_a: CO_343:0100032 ! 1-9 scale
-
-[Term]
-id: CO_343:0100032:7
-name: early (The plants have senescent foliage (75% of the plants in a plot with 50% leaves showing sign of yellowing but the vines still green)
-namespace: YamScale
-synonym: "7" EXACT []
-is_a: CO_343:0100032 ! 1-9 scale
-
-[Term]
-id: CO_343:0100032:9
-name: very early (The plants are completely senescent, yellowing is complete and uniform (both leaves and vines 100% senescence)
-namespace: YamScale
-synonym: "9" EXACT []
-is_a: CO_343:0100032 ! 1-9 scale
-
-[Term]
 id: CO_343:0100033
 name: number
 namespace: yamScale
@@ -5788,81 +5459,11 @@ is_a: CO_343:1000015 ! Ordinal
 relationship: scale_of CO_343:0010078 ! tuber dry rot severity - estimation
 
 [Term]
-id: CO_343:0100034:0
-name: No symptoms
-namespace: YamScale
-synonym: "0" EXACT []
-is_a: CO_343:0100034 ! 0-4 general scale
-
-[Term]
-id: CO_343:0100034:1
-name: 1-25% tuber skin showing symptoms
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100034 ! 0-4 general scale
-
-[Term]
-id: CO_343:0100034:2
-name: 26-50% tuber skin showing symptoms
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100034 ! 0-4 general scale
-
-[Term]
-id: CO_343:0100034:3
-name: 51-75% tuber skin showing symptoms
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100034 ! 0-4 general scale
-
-[Term]
-id: CO_343:0100034:4
-name: 76-100% tuber skin showing symptoms
-namespace: YamScale
-synonym: "4" EXACT []
-is_a: CO_343:0100034 ! 0-4 general scale
-
-[Term]
 id: CO_343:0100035
 name: 1-5 general scale
 namespace: YamScale
 is_a: CO_343:1000015 ! Ordinal
 relationship: scale_of CO_343:0010090 ! anthracnose severity - estimation
-
-[Term]
-id: CO_343:0100035:1
-name: No visible symptoms of anthracnose disease or infection spot on the leaf surface
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100035 ! 1-5 general scale
-
-[Term]
-id: CO_343:0100035:2
-name: Few anthracnose spots or sysmptoms on 1 t0 ~25% of the plant. One or two spots of less than 1 cm diameter width, and dry tissue on the leaf surface
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100035 ! 1-5 general scale
-
-[Term]
-id: CO_343:0100035:3
-name: Anthracnose symptoms covering ~26 t0 ~50% of the plant. One or two spots of more than 1 cm diameter width, and dry tissue on the leaf surface. Small dark and no dried spots with more than 1 cm width, are present
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100035 ! 1-5 general scale
-
-[Term]
-id: CO_343:0100035:4
-name: Symptom on >51% of the plant. Coalesced spots with dry tissue and covering a signifcant proprotion of the leaf surface. Areas with less than 1 cm width are coalescing to bigger spots also. Yellowing of green tissue is intense around the spots areas.
-namespace: YamScale
-synonym: "4" EXACT []
-is_a: CO_343:0100035 ! 1-5 general scale
-
-[Term]
-id: CO_343:0100035:5
-name: Severe necrosis and death of the plant. Coalesced spots with dry tissue more than 1.5 cm of diameter and covering a great proprotion of the leaf surface. Yellowing of the gree tissue is generalised in the leaf blade.
-namespace: YamScale
-synonym: "5" EXACT []
-is_a: CO_343:0100035 ! 1-5 general scale
 
 [Term]
 id: CO_343:0100036
@@ -5956,46 +5557,11 @@ is_a: CO_343:1000017 ! Nominal
 relationship: scale_of CO_343:0010129 ! tuber thorniness - estimation
 
 [Term]
-id: CO_343:0100045:0
-name: Absent
-namespace: YamScale
-synonym: "0" EXACT []
-is_a: CO_343:0100045 ! 0-1 binary scale
-
-[Term]
-id: CO_343:0100045:1
-name: Present
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100045 ! 0-1 binary scale
-
-[Term]
 id: CO_343:0100046
 name: 0-7 scale
 namespace: YamScale
 is_a: CO_343:1000015 ! Ordinal
 relationship: scale_of CO_343:0010130 ! tuber thorniness intensity-estimation
-
-[Term]
-id: CO_343:0100046:0
-name: no thorns or spines on tuber surface
-namespace: YamScale
-synonym: "0" EXACT []
-is_a: CO_343:0100046 ! 0-7 scale
-
-[Term]
-id: CO_343:0100046:3
-name: few thorns or spines on tuber surface
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100046 ! 0-7 scale
-
-[Term]
-id: CO_343:0100046:7
-name: Many thorns or spines on tuber surface
-namespace: YamScale
-synonym: "7" EXACT []
-is_a: CO_343:0100046 ! 0-7 scale
 
 [Term]
 id: CO_343:0100047
@@ -6005,61 +5571,12 @@ is_a: CO_343:1000017 ! Nominal
 relationship: scale_of CO_343:0010135 ! tuber shape - estimation
 
 [Term]
-id: CO_343:0100047:1
-name: Spherical
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100047 ! 1-4 score
-
-[Term]
-id: CO_343:0100047:2
-name: Oval
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100047 ! 1-4 score
-
-[Term]
-id: CO_343:0100047:3
-name: Cylindrical
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100047 ! 1-4 score
-
-[Term]
-id: CO_343:0100047:4
-name: Irregular
-namespace: YamScale
-synonym: "4" EXACT []
-is_a: CO_343:0100047 ! 1-4 score
-
-[Term]
 id: CO_343:0100048
 name: 0-3 scale
 namespace: YamScale
 is_a: CO_343:1000015 ! Ordinal
 relationship: scale_of CO_343:0010141 ! cracks on the tuber surface-estimation
 relationship: scale_of CO_343:0010154 ! tuber flesh oxidation intensity-estimation
-
-[Term]
-id: CO_343:0100048:0
-name: Absent
-namespace: YamScale
-synonym: "0" EXACT []
-is_a: CO_343:0100048 ! 0-3 scale
-
-[Term]
-id: CO_343:0100048:1
-name: few
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100048 ! 0-3 scale
-
-[Term]
-id: CO_343:0100048:2
-name: many
-namespace: YamScale
-synonym: "2" EXACT []
-is_a: CO_343:0100048 ! 0-3 scale
 
 [Term]
 id: CO_343:0100049
@@ -6071,46 +5588,11 @@ relationship: scale_of CO_343:0010143 ! corm on tubers-estimation
 relationship: scale_of CO_343:0010144 ! corm separation from tuber-estimation
 
 [Term]
-id: CO_343:0100049:0
-name: Absent
-namespace: YamScale
-synonym: "0" EXACT []
-is_a: CO_343:0100049 ! 0-1  scale
-
-[Term]
-id: CO_343:0100049:1
-name: Present
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100049 ! 0-1  scale
-
-[Term]
 id: CO_343:0100050
 name: 1-7 scale
 namespace: YamScale
 is_a: CO_343:1000015 ! Ordinal
 relationship: scale_of CO_343:0010166 ! leaf density - estimation
-
-[Term]
-id: CO_343:0100050:3
-name: Low
-namespace: YamScale
-synonym: "3" EXACT []
-is_a: CO_343:0100050 ! 1-7 scale
-
-[Term]
-id: CO_343:0100050:5
-name: Intermediate
-namespace: YamScale
-synonym: "5" EXACT []
-is_a: CO_343:0100050 ! 1-7 scale
-
-[Term]
-id: CO_343:0100050:7
-name: High
-namespace: YamScale
-synonym: "7" EXACT []
-is_a: CO_343:0100050 ! 1-7 scale
 
 [Term]
 id: CO_343:0100051
