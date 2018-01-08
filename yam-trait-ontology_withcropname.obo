@@ -82,14 +82,14 @@ is_a: TO:0000654
 
 [Term]
 id: CO_343:0000042
-name: yam yam tuber dry rot incidence trait
+name: yam tuber dry rot incidence trait
 def: "Dry rot caused by nematodes (Scutellonema bradys and Practylenchus spp.) in tubers at harvest" [CO:curators]
 synonym: "Dryrot" EXACT []
 is_a: TO:0000439
 
 [Term]
 id: CO_343:0000045
-name: yam yam tuber dry rot severity trait
+name: yam tuber dry rot severity trait
 def: "Dry rot caused by nematodes (Scutellonema bradys and Practylenchus spp.) in tubers at harvest" [CO:curators]
 synonym: "Dryrot" EXACT []
 is_a: TO:0000439
@@ -1344,7 +1344,7 @@ relationship: variable_of CO_343:0100032 ! yam 1-9 scale
 
 [Term]
 id: CO_343:0000314
-name: yam yam tuber dry rot presence trait
+name: yam tuber dry rot presence trait
 def: "Dry rot caused by nematodes (Scutellonema bradys and Practylenchus spp.) in tubers at harvest" [CO:curators]
 synonym: "Dryrot" EXACT []
 is_a: TO:0000439
@@ -1353,21 +1353,21 @@ is_a: TO:0000439
 id: CO_343:0000315
 name: yam presence of tuber dry rot estimation in 0&1 variable
 is_a: CO_343:0000314 ! yam yam tuber dry rot presence trait
-relationship: variable_of CO_343:0000314 ! yam yam tuber dry rot presence trait
+relationship: variable_of CO_343:0000314 ! yam tuber dry rot presence trait
 relationship: variable_of CO_343:0010075 ! yam dry rot presence on harvested tubers-estimation method
 relationship: variable_of CO_343:0100007 ! yam 0-1 scale
 
 [Term]
 id: CO_343:0000316
-name: yam yam tuber dry rot incidence trait
+name: yam tuber dry rot incidence trait
 def: "Dry rot caused by nematodes (Scutellonema bradys and Practylenchus spp.) in tubers at harvest" [CO:curators]
 synonym: "Dryrot" EXACT []
 
 [Term]
 id: CO_343:0000317
 name: yam number of dry rot tubers  count variable
-is_a: CO_343:0000316 ! yam yam tuber dry rot incidence trait
-relationship: variable_of CO_343:0000316 ! yam yam tuber dry rot incidence trait
+is_a: CO_343:0000316 ! yam tuber dry rot incidence trait
+relationship: variable_of CO_343:0000316 ! yam tuber dry rot incidence trait
 relationship: variable_of CO_343:0010076 ! yam dry rot tuber number-counting method
 relationship: variable_of CO_343:0100033 ! yam number scale
 
@@ -1375,8 +1375,8 @@ relationship: variable_of CO_343:0100033 ! yam number scale
 id: CO_343:0000318
 name: yam tuber dry rot incidence computation in % variable
 synonym: "S_Bri" EXACT []
-is_a: CO_343:0000042 ! yam yam tuber dry rot incidence trait
-relationship: variable_of CO_343:0000042 ! yam yam tuber dry rot incidence trait
+is_a: CO_343:0000042 ! yam tuber dry rot incidence trait
+relationship: variable_of CO_343:0000042 ! yam tuber dry rot incidence trait
 relationship: variable_of CO_343:0010077 ! yam tuber dry rot incidence - computation method
 relationship: variable_of CO_343:0100006 ! yam % scale
 
@@ -1384,8 +1384,8 @@ relationship: variable_of CO_343:0100006 ! yam % scale
 id: CO_343:0000319
 name: yam tuber dry rot severity estimation 0-4 variable
 synonym: "S_Brs" EXACT []
-is_a: CO_343:0000045 ! yam yam tuber dry rot severity trait
-relationship: variable_of CO_343:0000045 ! yam yam tuber dry rot severity trait
+is_a: CO_343:0000045 ! yam tuber dry rot severity trait
+relationship: variable_of CO_343:0000045 ! yam tuber dry rot severity trait
 relationship: variable_of CO_343:0010078 ! yam tuber dry rot severity - estimation method
 relationship: variable_of CO_343:0100034 ! yam 0-4 general scale
 
@@ -1483,7 +1483,7 @@ relationship: variable_of CO_343:0100008 ! yam 1-5 scale
 id: CO_343:0000330
 name: yam anthracnose disease incidence computation % variable
 synonym: "AnthracInc" EXACT []
-is_a: CO_343:0000075 ! yam yam anthracnose disease incidence trait
+is_a: CO_343:0000075 ! yam anthracnose disease incidence trait
 relationship: variable_of CO_343:0000075 ! yam anthracnose disease incidence trait
 relationship: variable_of CO_343:0010089 ! yam anthracnose incidence - estimation method
 relationship: variable_of CO_343:0100006 ! yam % scale
@@ -3143,25 +3143,25 @@ relationship: method_of CO_343:0000312 ! yam senescenece class trait
 id: CO_343:0010075
 name: yam dry rot presence on harvested tubers-estimation method
 def: "Observe the occurance or presence of dry rot caused by nematods (Scutellonema bradys and Practylenchus spp.) on harvested tubers and record the presence and absence" [CO:curators]
-relationship: method_of CO_343:0000314 ! yam yam tuber dry rot presence trait
+relationship: method_of CO_343:0000314 ! yam tuber dry rot presence trait
 
 [Term]
 id: CO_343:0010076
 name: yam dry rot tuber number-counting method
 def: "Take count of dry rot tubers per plot at harvest" [CO:curators]
-relationship: method_of CO_343:0000316 ! yam yam tuber dry rot incidence trait
+relationship: method_of CO_343:0000316 ! yam tuber dry rot incidence trait
 
 [Term]
 id: CO_343:0010077
 name: yam tuber dry rot incidence - computation method
 def: "Compute the proportion dry rot tubers from the total number of harvested tubers per effective plot" [CO:curators]
-relationship: method_of CO_343:0000042 ! yam yam tuber dry rot incidence trait
+relationship: method_of CO_343:0000042 ! yam tuber dry rot incidence trait
 
 [Term]
 id: CO_343:0010078
 name: yam tuber dry rot severity - estimation method
 def: "Score the severity of dry rot in harvested tubers" [CO:curators]
-relationship: method_of CO_343:0000045 ! yam yam tuber dry rot severity trait
+relationship: method_of CO_343:0000045 ! yam tuber dry rot severity trait
 
 [Term]
 id: CO_343:0010079
@@ -3227,13 +3227,13 @@ relationship: method_of CO_343:0000084 ! yam virus severity trait
 id: CO_343:0010089
 name: yam anthracnose incidence - estimation method
 def: "Compute the proportion of anthracnose damaged individuals or their parts ; commonly the portion of plant units in a plot. Count anthracnose disease ‘blight’ or '' leaf spot'' affected plants in plot twice (First inspection at 10 to 12 weeks post planting and second inspection after 2 to 4 weeks before harvesting ) and compute the proportion of damanged" [CO:curators]
-relationship: method_of CO_343:0000075 ! yam yam anthracnose disease incidence trait
+relationship: method_of CO_343:0000075 ! yam anthracnose disease incidence trait
 
 [Term]
 id: CO_343:0010090
 name: yam anthracnose severity - estimation method
 def: "Observe relative or absolute area of plant tissue affected by yam anthracnose disease and record the severity as a proportion or percentage of plant surface affected.It is visual score in scale under screenhouse, artificial inoculation or under field natural infestation. For artificial inoculation use a suspension of three most virulent strains of Colletothrichum gloeosporioides and inoculate the plants raised from vine cutting in vertical sack or other means by spraying. For natural infestation, scores can be taken 10 to 12 weeks after planting and second scoring about 4-6 weeks before harvesting . Artificial inoculation should be scored at 3 days after inoculation(DAI) , and repeated at 7DAI, 11DAI and 15DAI" [CO:curators]
-relationship: method_of CO_343:0000021 ! yam yam anthracnose disease severity trait
+relationship: method_of CO_343:0000021 ! yam anthracnose disease severity trait
 
 [Term]
 id: CO_343:0010091
