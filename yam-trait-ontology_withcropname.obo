@@ -197,11 +197,11 @@ is_a: TO:0002616
 
 [Term]
 id: CO_343:0000093
-name: yam plant sex trait
+name: yam plant sex
 def: "Predominat plant or flower sex" [CO:curators]
 synonym: "flower sex" EXACT []
 synonym: "Sex" EXACT []
-is_a: TO:0000392
+
 
 [Term]
 id: CO_343:0000096
