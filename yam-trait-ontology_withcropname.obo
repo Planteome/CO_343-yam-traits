@@ -1909,7 +1909,7 @@ is_a: CO_343:0000384 ! big size tuber yield adjusted
 
 [Term]
 id: CO_343:0000386
-name: yam average weigth of big size tuber trait
+name: yam average weight of big size tuber trait
 def: "Average weight of big size tubers in kg" [CO:curators]
 synonym: "AWBT" EXACT []
 is_a: TO:0000746
@@ -1917,10 +1917,10 @@ is_a: TO:0000746
 [Term]
 id: CO_343:0000387
 name: yam big tuber average weight computation in kg variable
-relationship: variable_of CO_343:0000386 ! average weigth of big size tuber
+relationship: variable_of CO_343:0000386 ! average weight of big size tuber
 relationship: variable_of CO_343:0010123 ! big yam tuber average weight-computation
 relationship: variable_of CO_343:0100038 ! kg
-is_a: CO_343:0000386 ! average weigth of big size tuber
+is_a: CO_343:0000386 ! average weight of big size tuber
 
 [Term]
 id: CO_343:0000388
@@ -3424,7 +3424,7 @@ relationship: method_of CO_343:0000384 ! big size tuber yield adjusted
 id: CO_343:0010123
 name: yam big yam tuber average weight-computation method
 def: "Calculated as weight of big size tubers per plot divided by total number of big size tubers per plot" [CO:curators]
-relationship: method_of CO_343:0000386 ! average weigth of big size tuber
+relationship: method_of CO_343:0000386 ! average weight of big size tuber
 
 [Term]
 id: CO_343:0010124
