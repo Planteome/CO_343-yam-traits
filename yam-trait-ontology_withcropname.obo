@@ -208,6 +208,7 @@ id: CO_343:0000096
 name: yam flowering intensity trait
 def: "Abundance or degree of flowering" [CO:curators]
 synonym: "Flrint" EXACT []
+is_a: TO:0002736
 
 [Term]
 id: CO_343:0000099
@@ -221,7 +222,7 @@ id: CO_343:0000105
 name: yam presence of bulbil trait
 def: "Presence of bulbils or aerial tubers in the nodes of the vines" [CO:curators]
 synonym: "Aerial tuber formation" EXACT []
-synonym: "Bulbil" EXACT []
+synonym: "bulbil" EXACT []
 is_a: TO:0000077
 
 [Term]
@@ -303,6 +304,7 @@ name: yam tuber thorniness trait
 def: "Exsistence of thorns on the tuber surface" [CO:curators]
 synonym: "Thorn" EXACT []
 synonym: "Tuber spineness" EXACT []
+is_a: TO:0000745
 
 [Term]
 id: CO_343:0000147
@@ -316,6 +318,7 @@ id: CO_343:0000150
 name: yam tuber flesh oxidation trait
 def: "Tuber flesh enzymatic oxidation rate" [CO:curators]
 synonym: "Tfoxd" EXACT []
+is_a: TO:0000745
 
 [Term]
 id: CO_343:0000153
@@ -364,6 +367,7 @@ id: CO_343:0000174
 name: yam tuber dry matter content trait
 def: "Proportion of dry matter in the tuber." [CO:curators]
 synonym: "TubDMC" EXACT []
+is_a:  TO:0000742
 
 [Term]
 id: CO_343:0000180
@@ -384,6 +388,7 @@ id: CO_343:0000188
 name: yam tuber appearance trait
 def: "Tuber surface look in relation to presence or absence of roots, thorns and sprouted buds on the tuber surface" [CO:curators]
 synonym: "Tbrappr" EXACT []
+is_a: TO:0000745
 
 [Term]
 id: CO_343:0000191
@@ -472,6 +477,7 @@ id: CO_343:0000204
 name: yam number of emerged plants trait
 def: "Number of an emerged plants (sprouts) in a plot" [CO:curators]
 synonym: "NEP" EXACT []
+is_a: TO:0000250
 
 [Term]
 id: CO_343:0000205
@@ -538,6 +544,7 @@ id: CO_343:0000212
 name: yam sprout length trait
 def: "Length of sprouted shoots (vines)" [CO:curators]
 synonym: "Spleng" EXACT []
+is_a: TO:0000739
 
 [Term]
 id: CO_343:0000213
@@ -553,7 +560,7 @@ id: CO_343:0000214
 name: yam presence of spot on spine base trait
 def: "Presence of colored spots at the spine base of sprouted shoots (vine) with spines" [CO:curators]
 synonym: "SPBCOL" EXACT []
-is_a: TO:0000747
+is_a: TO:0000876
 
 [Term]
 id: CO_343:0000215
@@ -707,6 +714,7 @@ id: CO_343:0000234
 name: yam spines on stem density trait
 def: "Intensity of spines on stem (vine) above base of mature plant (5 to 6 month old plant)" [CO:curators]
 synonym: "SPNAB" EXACT []
+s_a: TO:0000739
 
 [Term]
 id: CO_343:0000235
@@ -722,7 +730,7 @@ name: yam plant type trait
 def: "A tendency of a plant to grow in a certain shape and to attain a certain mature height and spread" [CO:curators]
 synonym: "Growth habit" EXACT []
 synonym: "Plntype" EXACT []
-is_a: TO:0000398
+is_a: TO:0002756
 
 [Term]
 id: CO_343:0000237
@@ -937,6 +945,7 @@ name: yam female flowering intensity trait
 def: "Intensity or abudance of female flowers on spikes/infloresences" [CO:curators]
 synonym: "femal flower abudance per inflorence" EXACT []
 synonym: "fflrint" EXACT []
+is_a: TO:0000987
 
 [Term]
 id: CO_343:0000263
@@ -1020,6 +1029,7 @@ id: CO_343:0000272
 name: yam time to fruit harvesting trait
 def: "Time of fruit harvesting" [CO:curators]
 synonym: "DateFH" EXACT []
+is_a: TO:0000366
 
 [Term]
 id: CO_343:0000273
@@ -1286,6 +1296,7 @@ name: yam foliage senescence time trait
 def: "Time to all plants in a plot or unit area show full or complete foliage senescence" [CO:curators]
 synonym: "Complete senescence time" EXACT []
 synonym: "Datfsen" EXACT []
+is_a: TO:0000369
 
 [Term]
 id: CO_343:0000307
@@ -1320,6 +1331,7 @@ name: yam time to maturity trait
 def: "Length of time toward crop maturity" [CO:curators]
 synonym: "Growing degree days" EXACT []
 synonym: "Mat" EXACT []
+is_a: TO:0000366
 
 [Term]
 id: CO_343:0000311
@@ -1516,6 +1528,7 @@ name: yam number of bulbil trait
 def: "Number of bulbils or aerial tubers produced" [CO:curators]
 synonym: "Bulbpl" EXACT []
 synonym: "Number of aerial tuber" EXACT []
+s_a: TO:0000739
 
 [Term]
 id: CO_343:0000334
@@ -1532,6 +1545,7 @@ name: yam bulbil shape trait
 def: "Predominant shape of the bulbils" [CO:curators]
 synonym: "Aerial tuber shape" EXACT []
 synonym: "Bulbsp" EXACT []
+is_a: TO:0000739
 
 [Term]
 id: CO_343:0000336
@@ -2003,6 +2017,7 @@ name: yam tuber thorniness intensity trait
 def: "Intensity of thorns on the tuber surface" [CO:curators]
 synonym: "Spine intensity on tubers" EXACT []
 synonym: "ThornInt" EXACT []
+is_a: TO:0000745
 
 [Term]
 id: CO_343:0000397
@@ -2160,6 +2175,7 @@ id: CO_343:0000416
 name: yam tuber cracks trait
 def: "Cracks on tuber surface" [CO:curators]
 synonym: "CTBRS" EXACT []
+is_a: TO:0000745
 
 [Term]
 id: CO_343:0000417
@@ -2174,6 +2190,7 @@ id: CO_343:0000418
 name: yam crazy roots presence trait
 def: "Appearance of crazy roots on tuber surface" [CO:curators]
 synonym: "CRZROOT" EXACT []
+is_a: TO:0000745
 
 [Term]
 id: CO_343:0000419
@@ -2203,6 +2220,7 @@ id: CO_343:0000422
 name: yam corm separability from tuber trait
 def: "Corm separation from tuber" [CO:curators]
 synonym: "corsep" EXACT []
+is_a: TO:0000745
 
 [Term]
 id: CO_343:0000423
@@ -2320,6 +2338,7 @@ id: CO_343:0000437
 name: yam tuber flesh oxidation intensity trait
 def: "Intensity of tuber flesh enzymatic oxidation (degree of flesh color change or browning of cut yam tuber)" [CO:curators]
 synonym: "Intoxd" EXACT []
+is_a: TO:0000745
 
 [Term]
 id: CO_343:0000438
@@ -2930,7 +2949,7 @@ relationship: method_of CO_343:0000003 ! yam pollinated spikes number trait
 [Term]
 id: CO_343:0010039
 name: yam flowering intensity - estimation method
-def: "Record the abundance or intesity of flowering when more than 50% of the plants are flowered in a plot" [CO:curators]
+def: "Record the abundance or intensity of flowering when more than 50% of the plants are flowered in a plot" [CO:curators]
 relationship: method_of CO_343:0000096 ! yam flowering intensity trait
 
 [Term]
