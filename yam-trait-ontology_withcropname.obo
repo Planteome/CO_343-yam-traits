@@ -44,6 +44,7 @@ id: CO_343:0000015
 name: yam seedling establishment rate trait
 def: "Establishment rate of seedlings" [CO:curators]
 synonym: "sderat" EXACT []
+is_a: TO:0000250
 
 [Term]
 id: CO_343:0000021
@@ -71,7 +72,7 @@ id: CO_343:0000030
 name: yam canopy architecture trait
 def: "Organisation or structural arrangements of branchs and leaves distribution giving a specific shape to the above ground part of the plant" [CO:curators]
 synonym: "Canarc" EXACT []
-is_a: TO:0000839
+is_a: TO:0000398
 
 [Term]
 id: CO_343:0000036
@@ -202,7 +203,6 @@ def: "Predominat plant or flower sex" [CO:curators]
 synonym: "flower sex" EXACT []
 synonym: "Sex" EXACT []
 
-
 [Term]
 id: CO_343:0000096
 name: yam flowering intensity trait
@@ -295,7 +295,7 @@ id: CO_343:0000141
 name: yam tuber surface texture trait
 def: "Tuber surface smoothness" [CO:curators]
 synonym: "Tbrtxtur" EXACT []
-is_a: TO:0000742
+is_a: TO:0000745
 
 [Term]
 id: CO_343:0000144
@@ -403,8 +403,8 @@ is_a: TO:0001068
 id: CO_343:0000196
 name: yam tubers planted counting/plot variable
 synonym: "Sett-N" EXACT []
-is_a: CO_343:0000054 ! yam tubers planted trait
-relationship: variable_of CO_343:0000054 ! yam tubers planted trait
+is_a: CO_343:0000054 ! yam tubers planted
+relationship: variable_of CO_343:0000054 ! yam tubers planted
 relationship: variable_of CO_343:0010000 ! yam tubers (seed yams or setts) planted - counting method
 relationship: variable_of CO_343:0100000 ! yam number of tubers scale
 
@@ -553,6 +553,7 @@ id: CO_343:0000214
 name: yam presence of spot on spine base trait
 def: "Presence of colored spots at the spine base of sprouted shoots (vine) with spines" [CO:curators]
 synonym: "SPBCOL" EXACT []
+is_a: TO:0000747
 
 [Term]
 id: CO_343:0000215
@@ -567,6 +568,7 @@ id: CO_343:0000216
 name: yam spines on sprout presence trait
 def: "Presence of spines on sprout (vines)" [CO:curators]
 synonym: "SPNSP" EXACT []
+is_a: TO:0000739
 
 [Term]
 id: CO_343:0000217
@@ -755,6 +757,7 @@ name: yam twining habit trait
 def: "Tendency of climbing or trailling" [CO:curators]
 synonym: "trailling, climbing habit" EXACT []
 synonym: "TWNH" EXACT []
+is_a: TO:0002756
 
 [Term]
 id: CO_343:0000241
@@ -771,6 +774,7 @@ name: yam twining direction trait
 def: "Twining direction" [CO:curators]
 synonym: "twndir" EXACT []
 synonym: "vine climbing direction" EXACT []
+is_a: TO:0002756
 
 [Term]
 id: CO_343:0000243
@@ -850,7 +854,7 @@ relationship: variable_of CO_343:0100003 ! yam days scale
 
 [Term]
 id: CO_343:0000252
-name: yam crossing date trait
+name: yam crossing date
 def: "Date crossing or pollination attempted" [CO:curators]
 synonym: "datcross" EXACT []
 
@@ -858,8 +862,8 @@ synonym: "datcross" EXACT []
 id: CO_343:0000253
 name: yam crossing date esimation in yy/mm/dd variable
 synonym: "Polldate" EXACT []
-is_a: CO_343:0000252 ! yam crossing date trait
-relationship: variable_of CO_343:0000252 ! yam crossing date trait
+is_a: CO_343:0000252 ! yam crossing date
+relationship: variable_of CO_343:0000252 ! yam crossing date
 relationship: variable_of CO_343:0010036 ! yam date crossing-estimation method
 relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
 
@@ -964,8 +968,8 @@ relationship: variable_of CO_343:0100023 ! yam 1-4 scale
 id: CO_343:0000266
 name: yam plant sex estimation 0-4 variable
 synonym: "plntsex, flrsex" EXACT []
-is_a: CO_343:0000093 ! yam plant sex trait
-relationship: variable_of CO_343:0000093 ! yam plant sex trait
+is_a: CO_343:0000093 ! yam plant sex
+relationship: variable_of CO_343:0000093 ! yam plant sex
 relationship: variable_of CO_343:0010045 ! yam plant or flower sex-estimation method
 relationship: variable_of CO_343:0100024 ! yam 0-4 scale
 
@@ -1006,8 +1010,8 @@ relationship: variable_of CO_343:0100007 ! yam 0-1 scale
 id: CO_343:0000271
 name: yam fruits harvested per cross counting variable
 synonym: "Matfrt" EXACT []
-is_a: CO_343:0000009 ! yam fruits harvested number trait
-relationship: variable_of CO_343:0000009 ! yam fruits harvested number trait
+is_a: CO_343:0000009 ! yam fruits harvested number
+relationship: variable_of CO_343:0000009 ! yam fruits harvested number
 relationship: variable_of CO_343:0010049 ! yam fruits harvested number - counting method
 relationship: variable_of CO_343:0100026 ! yam number of fruits scale
 
@@ -1352,7 +1356,7 @@ is_a: TO:0000439
 [Term]
 id: CO_343:0000315
 name: yam presence of tuber dry rot estimation in 0&1 variable
-is_a: CO_343:0000314 ! yam yam tuber dry rot presence trait
+is_a: CO_343:0000314 ! yam tuber dry rot presence trait
 relationship: variable_of CO_343:0000314 ! yam tuber dry rot presence trait
 relationship: variable_of CO_343:0010075 ! yam dry rot presence on harvested tubers-estimation method
 relationship: variable_of CO_343:0100007 ! yam 0-1 scale
@@ -1604,8 +1608,8 @@ relationship: variable_of CO_343:0100007 ! yam 0-1 scale
 id: CO_343:0000346
 name: yam plant stand harvested count variable
 synonym: "No_stdh" EXACT []
-is_a: CO_343:0000123 ! yam stand harvested number trait
-relationship: variable_of CO_343:0000123 ! yam stand harvested number trait
+is_a: CO_343:0000123 ! yam stand harvested number
+relationship: variable_of CO_343:0000123 ! yam stand harvested number
 relationship: variable_of CO_343:0010100 ! yam plant harvested number - counting method
 relationship: variable_of CO_343:0100041 ! yam plant per plot scale
 
@@ -1949,7 +1953,7 @@ id: CO_343:0000390
 name: yam place of roots on tubers trait
 def: "Position of appearance of roots at surface of tubers" [CO:curators]
 synonym: "Prtbs" EXACT []
-is_a: TO:0000742
+is_a: TO:0000745
 
 [Term]
 id: CO_343:0000391
@@ -2330,7 +2334,7 @@ id: CO_343:0000439
 name: yam tuber flesh texture trait
 def: "Texture of tuber flesh" [CO:curators]
 synonym: "Txf" EXACT []
-is_a: TO:0000742
+is_a: TO:0000745
 
 [Term]
 id: CO_343:0000440
@@ -2693,7 +2697,7 @@ relationship: variable_of CO_343:0100009 ! yam cm scale
 id: CO_343:0010000
 name: yam tubers (seed yams or setts) planted - counting method
 def: "Count the number of tubers (seed yams or setts) planted per plot (unit area)" [CO:curators]
-relationship: method_of CO_343:0000054 ! yam tubers planted trait
+relationship: method_of CO_343:0000054 ! yam tubers planted
 
 [Term]
 id: CO_343:0010001
@@ -2909,7 +2913,7 @@ relationship: method_of CO_343:0000247 ! yam time to end of flowering trait
 id: CO_343:0010036
 name: yam date crossing-estimation method
 def: "Record the date crossing made in particular flower of a plant." [CO:curators]
-relationship: method_of CO_343:0000252 ! yam crossing date trait
+relationship: method_of CO_343:0000252 ! yam crossing date
 
 [Term]
 id: CO_343:0010037
@@ -2963,7 +2967,7 @@ relationship: method_of CO_343:0000264 ! yam pollination type trait
 id: CO_343:0010045
 name: yam plant or flower sex-estimation method
 def: "Scoring the most frequent flower sex type when more than 50% of the plants are flowered" [CO:curators]
-relationship: method_of CO_343:0000093 ! yam plant sex trait
+relationship: method_of CO_343:0000093 ! yam plant sex
 
 [Term]
 id: CO_343:0010046
@@ -2987,7 +2991,7 @@ relationship: method_of CO_343:0000268 ! yam time to fruit setting trait
 id: CO_343:0010049
 name: yam fruits harvested number - counting method
 def: "Record the number of harvested fruits per cross" [CO:curators]
-relationship: method_of CO_343:0000009 ! yam fruits harvested number trait
+relationship: method_of CO_343:0000009 ! yam fruits harvested number
 
 [Term]
 id: CO_343:0010050
@@ -3293,7 +3297,7 @@ relationship: method_of CO_343:0000105 ! yam presence of bulbil trait
 id: CO_343:0010100
 name: yam plant harvested number - counting method
 def: "Counting the number of plants where tubers were harvested in a plot" [CO:curators]
-relationship: method_of CO_343:0000123 ! yam stand harvested number trait
+relationship: method_of CO_343:0000123 ! yam stand harvested number
 
 [Term]
 id: CO_343:0010101
