@@ -714,7 +714,7 @@ id: CO_343:0000234
 name: yam spines on stem density trait
 def: "Intensity of spines on stem (vine) above base of mature plant (5 to 6 month old plant)" [CO:curators]
 synonym: "SPNAB" EXACT []
-s_a: TO:0000739
+is_a: TO:0000739
 
 [Term]
 id: CO_343:0000235
