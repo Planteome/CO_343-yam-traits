@@ -1528,7 +1528,7 @@ name: yam number of bulbil trait
 def: "Number of bulbils or aerial tubers produced" [CO:curators]
 synonym: "Bulbpl" EXACT []
 synonym: "Number of aerial tuber" EXACT []
-s_a: TO:0000739
+is_a: TO:0000739
 
 [Term]
 id: CO_343:0000334
