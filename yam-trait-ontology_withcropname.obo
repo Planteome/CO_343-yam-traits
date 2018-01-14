@@ -367,7 +367,7 @@ id: CO_343:0000174
 name: yam tuber dry matter content trait
 def: "Proportion of dry matter in the tuber." [CO:curators]
 synonym: "TubDMC" EXACT []
-is_a:  TO:0000742
+is_a: TO:0000742
 
 [Term]
 id: CO_343:0000180
