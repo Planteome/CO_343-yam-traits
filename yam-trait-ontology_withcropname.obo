@@ -215,7 +215,7 @@ id: CO_343:0000099
 name: yam fruit set number trait
 def: "Intensity or proportion of fruit set or development under open or controlled pollination." [CO:curators]
 synonym: "NFrtSet" EXACT []
-is_a: TO:0002640
+is_a: TO:0000852 ! fruit set trait
 
 [Term]
 id: CO_343:0000105
@@ -1085,7 +1085,7 @@ id: CO_343:0000279
 name: yam status of fruit development trait
 def: "Fruit development status on monoecious and female flower of dioeciouse yam plant" [CO:curators]
 synonym: "FrtDev" EXACT []
-is_a: TO:0002640
+is_a: TO:0000852 ! fruit set trait
 
 [Term]
 id: CO_343:0000280
