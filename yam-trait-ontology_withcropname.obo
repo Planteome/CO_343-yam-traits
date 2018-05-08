@@ -129,7 +129,7 @@ id: CO_343:0000060
 name: yam plant vigor trait
 def: "The vigour of the vine and leaves of the new plant." [CO:curators]
 synonym: "PVigor" EXACT []
-is_a: TO:0000133
+is_a: TO:0000250
 
 [Term]
 id: CO_343:0000063
