@@ -136,7 +136,7 @@ id: CO_343:0000063
 name: yam sprout color trait
 def: "Color of the sprout (vine and leaves)." [CO:curators]
 synonym: "SprtCol" EXACT []
-is_a: TO:0000745
+is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0000066
@@ -544,7 +544,7 @@ id: CO_343:0000212
 name: yam sprout length trait
 def: "Length of sprouted shoots (vines)" [CO:curators]
 synonym: "Spleng" EXACT []
-is_a: TO:0000739
+is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0000213
@@ -590,7 +590,7 @@ id: CO_343:0000218
 name: yam sprout hairiness trait
 def: "Hairs on sprout (vines)" [CO:curators]
 synonym: "HAIRSP" EXACT []
-is_a: TO:0000745
+is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0000219
@@ -714,7 +714,7 @@ id: CO_343:0000234
 name: yam spines on stem density trait
 def: "Intensity of spines on stem (vine) above base of mature plant (5 to 6 month old plant)" [CO:curators]
 synonym: "SPNAB" EXACT []
-is_a: TO:0000739
+is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0000235
@@ -1528,7 +1528,7 @@ name: yam number of bulbil trait
 def: "Number of bulbils or aerial tubers produced" [CO:curators]
 synonym: "Bulbpl" EXACT []
 synonym: "Number of aerial tuber" EXACT []
-is_a: TO:0000739
+is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0000334
@@ -1545,7 +1545,7 @@ name: yam bulbil shape trait
 def: "Predominant shape of the bulbils" [CO:curators]
 synonym: "Aerial tuber shape" EXACT []
 synonym: "Bulbsp" EXACT []
-is_a: TO:0000739
+is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0000336
