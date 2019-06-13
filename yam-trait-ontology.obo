@@ -1,6 +1,6 @@
 format-version: 1.2
 auto-generated-by: java
-default-namespace: YamTrait
+default-namespace: yam_trait_ontology
 
 [Term]
 id: CO_343:0000000
