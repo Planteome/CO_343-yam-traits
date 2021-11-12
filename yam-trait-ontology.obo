@@ -4219,7 +4219,7 @@ name: foliage senescence time - estimation
 namespace: YamMethod
 def: "Record the date when all plants in a plot shows a sign of 100%  foliage senescence" []
 is_a: CO_343:1000014 ! Estimation
-relationship: method_of CO_343:0000306 ! foliage senescence time
+relationship: method_of CO_343:0000111 ! foliage senescence time
 
 [Term]
 id: CO_343:0010071
@@ -4395,7 +4395,7 @@ name: number of bulbil - computation
 namespace: YamMethod
 def: "Count number of aerial tubers or vine bulbils on plants in a net plot and compute the average number bulbils per plant" []
 is_a: CO_343:1000013 ! Computation
-relationship: method_of CO_343:0000333 ! number of bulbil
+relationship: method_of CO_343:0000117 ! number of bulbil
 
 [Term]
 id: CO_343:0010093
@@ -5190,13 +5190,6 @@ relationship: scale_of CO_343:0010099 ! presence of bulbil  - estimation
 relationship: scale_of CO_343:0010153 ! tuber flesh cross section color uniformity-estimation
 
 [Term]
-id: CO_343:0100007:1 
-name: Present
-namespace: YamScale
-synonym: "1" EXACT []
-is_a: CO_343:0100007 ! 0-1 scale
-
-[Term]
 id: CO_343:0100008
 name: 1-5 scale
 namespace: YamScale
@@ -5331,20 +5324,6 @@ name: 0-9 scale
 namespace: YamScale
 is_a: CO_343:1000015 ! Ordinal
 relationship: scale_of CO_343:0010039 ! flowering intensity - estimation
-
-[Term]
-id: CO_343:0100021:7 
-name: Profuse (plant producing many more flowers mostly 30 to 50 inflorescences per plant)
-namespace: YamScale
-synonym: "7" EXACT []
-is_a: CO_343:0100021 ! 0-9 scale
-
-[Term]
-id: CO_343:0100021:9 
-name: Extremely pofuse (plant producing with abundant flowring mostly more than 50 inflorescences per plant)
-namespace: YamScale
-synonym: "9" EXACT []
-is_a: CO_343:0100021 ! 0-9 scale
 
 [Term]
 id: CO_343:0100022
@@ -5629,6 +5608,12 @@ namespace: YamMethod
 id: CO_343:1000002
 name: Scale
 namespace: YamScale
+
+[Term]
+id: CO_343:1000003
+name: Variable
+namespace: YamTrait
+is_a: CO_343:1000000 ! Trait
 
 [Term]
 id: CO_343:1000005
