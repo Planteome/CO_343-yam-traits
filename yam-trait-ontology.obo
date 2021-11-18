@@ -1,6 +1,7 @@
 format-version: 1.2
 auto-generated-by: java
 default-namespace: yam_trait_ontology
+ontology: TEMP
 
 [Term]
 id: CO_343:0000000
@@ -405,7 +406,6 @@ id: CO_343:0000138
 name: rotten or diseased tubers per plot
 namespace: YamTrait
 def: "Number of rotten and/or rotten yam tubers in a net plot or unit area" []
-synonym: "NRDT" EXACT []
 synonym: "NRDT" EXACT []
 is_a: CO_343:1000008 ! Agronomical_trait
 created_by: A.Amele
@@ -3654,6 +3654,130 @@ relationship: variable_of CO_343:0010178 ! petiole length - computation
 relationship: variable_of CO_343:0100009 ! cm
 
 [Term]
+id: CO_343:0002000
+name: peak viscosity
+namespace: YamTrait
+def: "Maximum viscosity during the heating or hold phase of the RVA test.It describes the water-holding capacity of the starch" []
+synonym: "pkvisc" EXACT []
+is_a: CO_343:0002006 ! Viscosity traits
+created_by: aafolabi
+
+[Term]
+id: CO_343:0002001
+name: trough viscosity
+namespace: YamTrait
+def: "Trough viscosity is the ability of the starch granules to remain undisrupted when the yam paste is subjected to a hold period of constant high temperature and mechanical shear stress" []
+synonym: "tvisc" EXACT []
+is_a: CO_343:0002006 ! Viscosity traits
+created_by: aafolabi
+
+[Term]
+id: CO_343:0002002
+name: final viscosity
+namespace: YamTrait
+def: "Final viscosity is the ability of the material to form a viscous paste after cooking and cooling" []
+synonym: "fvisc" EXACT []
+is_a: CO_343:0002006 ! Viscosity traits
+created_by: aafolabi
+
+[Term]
+id: CO_343:0002003
+name: breakdown
+namespace: YamTrait
+def: "Indicates the resistance of the starch paste to heat and shear" []
+synonym: "brkdown" EXACT []
+is_a: CO_343:0002006 ! Viscosity traits
+created_by: aafolabi
+
+[Term]
+id: CO_343:0002004
+name: setback
+namespace: YamTrait
+def: "the tendency of starch pastes to recrystallize and is an index of starch retrogradation or gelling ability. Recovery of the viscosity during cooling of the heated starch suspension and is related to the retrogradation and reordering of starch molecules, i.e., low setback values indicate a low rate of starch retrogradation and syneresis. Mathematically, setback = ﬁnal viscosity–trough viscosity" []
+synonym: "setbck" EXACT []
+is_a: CO_343:0002006 ! Viscosity traits
+created_by: aafolabi
+
+[Term]
+id: CO_343:0002005
+name: pasting temperature
+namespace: YamTrait
+def: "Measured at the onset of a rise in viscosity and may indicate the gelatinization temperature of the starch, thereby indicating the minimum temperature at which the starch should be cooked" []
+is_a: CO_343:0002006 ! Viscosity traits
+created_by: aafolabi
+
+[Term]
+id: CO_343:0002006
+name: Viscosity traits
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0002007
+name: Peak viscosity measurement in centipoise
+namespace: YamTrait
+def: "The water-holding capacity of the starch or mixture using Rapid Visco Analyzer" []
+synonym: "pkvsc" EXACT []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0002000 ! peak viscosity
+relationship: variable_of CO_343:0012000 ! peak viscosity - measurement
+relationship: variable_of CO_343:0102000 ! cP
+
+[Term]
+id: CO_343:0002008
+name: Trough viscosity measurement in centipoise
+namespace: YamTrait
+def: "Ability of the starch granules to remain undisrupted when the yam paste is subjected to a hold period of constant high temperature and mechanical shear stress using Rapid Visco Analyzer measured in centipoise." []
+synonym: "tvisc" EXACT []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0002001 ! trough viscosity
+relationship: variable_of CO_343:0012001 ! trough viscosity - measurement
+relationship: variable_of CO_343:0102000 ! cP
+
+[Term]
+id: CO_343:0002009
+name: Final viscosity measurement in centipoise
+namespace: YamTrait
+def: "Ability of the material to form a viscous paste after cooking and cooling as measured using a Rapid Visco Analyzer in centipoise." []
+synonym: "fvisc" EXACT []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0002002 ! final viscosity
+relationship: variable_of CO_343:0012002 ! final viscosity - measurement
+relationship: variable_of CO_343:0102000 ! cP
+
+[Term]
+id: CO_343:0002010
+name: Breakdown measurement in centipoise
+namespace: YamTrait
+def: "The resistance of the starch paste to heat and shear as measured using Rapid Visco Analyzer in centipoise." []
+synonym: "brkdown" EXACT []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0002003 ! breakdown
+relationship: variable_of CO_343:0012003 ! breakdown - measurement
+relationship: variable_of CO_343:0102000 ! cP
+
+[Term]
+id: CO_343:0002011
+name: Setback measurement in centipoise
+namespace: YamTrait
+def: "Tendency of starch pastes to recrystallize and is an index of starch retrogradation or gelling ability. Recovery of the viscosity during cooling of the heated starch suspension and is related to the retrogradation and reordering of starch molecules, i.e., low setback values indicate a low rate of starch retrogradation and syneresis. It is measured using Rapid Visco Analyzer in centipoise." []
+synonym: "setbck" EXACT []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0002004 ! setback
+relationship: variable_of CO_343:0012004 ! setback - measurement
+relationship: variable_of CO_343:0102000 ! cP
+
+[Term]
+id: CO_343:0002012
+name: Pasting temperature measurement in degree celsius
+namespace: YamTrait
+def: "The pasting temperature is measured at the onset of a rise in viscosity and may indicate the gelatinization temperature of the starch, thereby indicating the minimum temperature at which the starch should be cooked." []
+synonym: "ptemp" EXACT []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0002005 ! pasting temperature
+relationship: variable_of CO_343:0012005 ! pasting temperature - measurement
+relationship: variable_of CO_343:0102001 ! deg
+
+[Term]
 id: CO_343:0010000
 name: tubers (seed yams or setts) planted - counting
 namespace: YamMethod
@@ -5060,7 +5184,6 @@ namespace: YamMethod
 def: "Assess the color of leaf on a young plant" []
 is_a: CO_343:1000014 ! Estimation
 relationship: method_of CO_343:0000475 ! leaf color
-relationship: method_of CO_343:0000475 ! leaf color
 
 [Term]
 id: CO_343:0010176
@@ -5068,7 +5191,6 @@ name: vein color - estimation
 namespace: YamMethod
 def: "Assess the color of leaf vein on the upper surface" []
 is_a: CO_343:1000014 ! Estimation
-relationship: method_of CO_343:0000478 ! vein color
 relationship: method_of CO_343:0000478 ! vein color
 
 [Term]
@@ -5078,7 +5200,6 @@ namespace: YamMethod
 def: "Assess hairiness of leaf surface (upper part)" []
 is_a: CO_343:1000014 ! Estimation
 relationship: method_of CO_343:0000481 ! leaf hairiness
-relationship: method_of CO_343:0000481 ! leaf hairiness
 
 [Term]
 id: CO_343:0010178
@@ -5087,6 +5208,54 @@ namespace: YamMethod
 def: "Measure the length of petiole using measuring tape on sampled 20 adult leaves ( four leaves per plant on at leat five plants in a plot), and record the average length" []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0000484 ! petiole length
+
+[Term]
+id: CO_343:0012000
+name: peak viscosity - measurement
+namespace: YamMethod
+def: "water-holding capacity of the starch using RVA." []
+is_a: CO_343:1000011 ! Measurement
+relationship: method_of CO_343:0002000 ! peak viscosity
+
+[Term]
+id: CO_343:0012001
+name: trough viscosity - measurement
+namespace: YamMethod
+def: "Measurement of teh ability of starch granules to remain undisrupted when the yam paste is subjected to a hold period of constant high temperature using RVA." []
+is_a: CO_343:1000011 ! Measurement
+relationship: method_of CO_343:0002001 ! trough viscosity
+
+[Term]
+id: CO_343:0012002
+name: final viscosity - measurement
+namespace: YamMethod
+def: "Measurement of the ability of the material to form a viscous paste after cooking and cooling" []
+is_a: CO_343:1000011 ! Measurement
+relationship: method_of CO_343:0002002 ! final viscosity
+
+[Term]
+id: CO_343:0012003
+name: breakdown - measurement
+namespace: YamMethod
+def: "Measurement of the resistance of the starch paste to heat and shear using RVA." []
+is_a: CO_343:1000011 ! Measurement
+relationship: method_of CO_343:0002003 ! breakdown
+
+[Term]
+id: CO_343:0012004
+name: setback - measurement
+namespace: YamMethod
+def: "Measurement of the tendency of starch pastes to recrystallize and is an index of starch retrogradation or gelling ability using RVA" []
+is_a: CO_343:1000011 ! Measurement
+relationship: method_of CO_343:0002004 ! setback
+
+[Term]
+id: CO_343:0012005
+name: pasting temperature - measurement
+namespace: YamMethod
+def: "Measurement of the onset of a rise in viscosity using RVA." []
+is_a: CO_343:1000011 ! Measurement
+relationship: method_of CO_343:0002005 ! pasting temperature
 
 [Term]
 id: CO_343:0100000
@@ -5203,7 +5372,6 @@ relationship: scale_of CO_343:0010088 ! viruses infection severity - estimation
 relationship: scale_of CO_343:0010163 ! taste of pounded yam - estimation
 relationship: scale_of CO_343:0010165 ! stem color - estimation
 relationship: scale_of CO_343:0010175 ! leaf color - estimation
-relationship: scale_of CO_343:0010175 ! leaf color - estimation
 
 [Term]
 id: CO_343:0100009
@@ -5234,7 +5402,6 @@ relationship: scale_of CO_343:0010015 ! hairiness of sprout - estimation
 relationship: scale_of CO_343:0010024 ! density of spines on stem base of a plant-etimation
 relationship: scale_of CO_343:0010164 ! scale insect infestation - estimation
 relationship: scale_of CO_343:0010174 ! hair on stem - estimation
-relationship: scale_of CO_343:0010177 ! leaf hairiness - estimation
 relationship: scale_of CO_343:0010177 ! leaf hairiness - estimation
 
 [Term]
@@ -5349,7 +5516,6 @@ relationship: scale_of CO_343:0010044 ! pollination type-estimation
 relationship: scale_of CO_343:0010125 ! position of root appearance on tubers-estimation
 relationship: scale_of CO_343:0010127 ! tuber surface appearance - estimation
 relationship: scale_of CO_343:0010157 ! tuber flesh oxidation color-estimation
-relationship: scale_of CO_343:0010176 ! vein color - estimation
 relationship: scale_of CO_343:0010176 ! vein color - estimation
 
 [Term]
@@ -5595,6 +5761,26 @@ is_a: CO_343:1000019 ! Numerical
 relationship: scale_of CO_343:0010169 ! number of leaves - computation
 
 [Term]
+id: CO_343:0102000
+name: cP
+namespace: YamScale
+def: "Viscosity in centipoise" []
+is_a: CO_343:1000019 ! Numerical
+relationship: scale_of CO_343:0012000 ! peak viscosity - measurement
+relationship: scale_of CO_343:0012001 ! trough viscosity - measurement
+relationship: scale_of CO_343:0012002 ! final viscosity - measurement
+relationship: scale_of CO_343:0012003 ! breakdown - measurement
+relationship: scale_of CO_343:0012004 ! setback - measurement
+
+[Term]
+id: CO_343:0102001
+name: deg
+namespace: YamScale
+def: "Degree Celsius" []
+is_a: CO_343:1000019 ! Numerical
+relationship: scale_of CO_343:0012005 ! pasting temperature - measurement
+
+[Term]
 id: CO_343:1000000
 name: YamTrait
 namespace: YamTrait
@@ -5613,43 +5799,43 @@ namespace: YamScale
 id: CO_343:1000003
 name: Variable
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000005
 name: Biotic_stress_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000006
 name: Phenological_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000007
 name: Quality_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000008
 name: Agronomical_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000009
 name: Physiological_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000010
 name: Morphological_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000011
@@ -5716,3 +5902,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
