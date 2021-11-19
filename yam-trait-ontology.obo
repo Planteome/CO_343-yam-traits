@@ -1,6 +1,7 @@
 format-version: 1.2
 auto-generated-by: java
 default-namespace: yam_trait_ontology
+ontology: TEMP
 
 [Term]
 id: CO_343:0000000
@@ -405,7 +406,6 @@ id: CO_343:0000138
 name: rotten or diseased tubers per plot
 namespace: YamTrait
 def: "Number of rotten and/or rotten yam tubers in a net plot or unit area" []
-synonym: "NRDT" EXACT []
 synonym: "NRDT" EXACT []
 is_a: CO_343:1000008 ! Agronomical_trait
 created_by: A.Amele
@@ -5060,7 +5060,6 @@ namespace: YamMethod
 def: "Assess the color of leaf on a young plant" []
 is_a: CO_343:1000014 ! Estimation
 relationship: method_of CO_343:0000475 ! leaf color
-relationship: method_of CO_343:0000475 ! leaf color
 
 [Term]
 id: CO_343:0010176
@@ -5069,7 +5068,6 @@ namespace: YamMethod
 def: "Assess the color of leaf vein on the upper surface" []
 is_a: CO_343:1000014 ! Estimation
 relationship: method_of CO_343:0000478 ! vein color
-relationship: method_of CO_343:0000478 ! vein color
 
 [Term]
 id: CO_343:0010177
@@ -5077,7 +5075,6 @@ name: leaf hairiness - estimation
 namespace: YamMethod
 def: "Assess hairiness of leaf surface (upper part)" []
 is_a: CO_343:1000014 ! Estimation
-relationship: method_of CO_343:0000481 ! leaf hairiness
 relationship: method_of CO_343:0000481 ! leaf hairiness
 
 [Term]
@@ -5203,7 +5200,6 @@ relationship: scale_of CO_343:0010088 ! viruses infection severity - estimation
 relationship: scale_of CO_343:0010163 ! taste of pounded yam - estimation
 relationship: scale_of CO_343:0010165 ! stem color - estimation
 relationship: scale_of CO_343:0010175 ! leaf color - estimation
-relationship: scale_of CO_343:0010175 ! leaf color - estimation
 
 [Term]
 id: CO_343:0100009
@@ -5234,7 +5230,6 @@ relationship: scale_of CO_343:0010015 ! hairiness of sprout - estimation
 relationship: scale_of CO_343:0010024 ! density of spines on stem base of a plant-etimation
 relationship: scale_of CO_343:0010164 ! scale insect infestation - estimation
 relationship: scale_of CO_343:0010174 ! hair on stem - estimation
-relationship: scale_of CO_343:0010177 ! leaf hairiness - estimation
 relationship: scale_of CO_343:0010177 ! leaf hairiness - estimation
 
 [Term]
@@ -5349,7 +5344,6 @@ relationship: scale_of CO_343:0010044 ! pollination type-estimation
 relationship: scale_of CO_343:0010125 ! position of root appearance on tubers-estimation
 relationship: scale_of CO_343:0010127 ! tuber surface appearance - estimation
 relationship: scale_of CO_343:0010157 ! tuber flesh oxidation color-estimation
-relationship: scale_of CO_343:0010176 ! vein color - estimation
 relationship: scale_of CO_343:0010176 ! vein color - estimation
 
 [Term]
@@ -5613,43 +5607,43 @@ namespace: YamScale
 id: CO_343:1000003
 name: Variable
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000005
 name: Biotic_stress_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000006
 name: Phenological_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000007
 name: Quality_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000008
 name: Agronomical_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000009
 name: Physiological_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000010
 name: Morphological_trait
 namespace: YamTrait
-is_a: CO_343:1000000 ! Trait
+is_a: CO_343:1000000 ! YamTrait
 
 [Term]
 id: CO_343:1000011
@@ -5716,3 +5710,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
