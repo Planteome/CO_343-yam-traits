@@ -5764,6 +5764,7 @@ relationship: scale_of CO_343:0010169 ! number of leaves - computation
 id: CO_343:0100199
 name: Earliness of emergence computation in number of days from planting to 50% sprouts emergence
 namespace: YamTrait
+def: "Earliness of emergence in number of days from planting to 50% sprouts emergence" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100003 ! days
 relationship: variable_of CO_343:0100200 ! Earliness of emergence
@@ -5789,6 +5790,7 @@ relationship: method_of CO_343:0100200 ! Earliness of emergence
 id: CO_343:0100202
 name: Latency period duration computation in number of days from planting to 5% sprouts emergence
 namespace: YamTrait
+def: "Latency period duration in number of days from planting to 5% sprouts emergence" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100003 ! days
 relationship: variable_of CO_343:0100203 ! Latency before emergence
@@ -5814,6 +5816,7 @@ def: "Computation of the necessary time before 5% emergence using after-fitting 
 id: CO_343:0100205
 name: Emergence vigor computation in number of days between 5% and 95% sprouts emergence
 namespace: YamTrait
+def: "Emergence vigor expressed in number of days between 5% and 95% sprouts emergence" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100003 ! days
 relationship: variable_of CO_343:0100206 ! Emergence vigor
@@ -5839,6 +5842,7 @@ relationship: method_of CO_343:0100206 ! Emergence vigor
 id: CO_343:0100208
 name: Heterophylly presence estimation nominal 0&1
 namespace: YamTrait
+def: "Estimation of heterophylly presence (0: absence - 1: presence)" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100007 ! 0-1 scale
 relationship: variable_of CO_343:0100209 ! Heterophylly presence
@@ -5864,6 +5868,7 @@ relationship: method_of CO_343:0100209 ! Heterophylly presence
 id: CO_343:0100211
 name: Number of nodes carrying cataphylles before first true leaf counting/plant
 namespace: YamTrait
+def: "Number of nodes carrying cataphylles before first true leaf expressed in number of nodes per plant" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100212 ! Number of nodes carrying cataphylles
 relationship: variable_of CO_343:0100213 ! Nodes carrying cataphylles  - Counting
@@ -5896,6 +5901,7 @@ relationship: scale_of CO_343:0100213 ! Nodes carrying cataphylles  - Counting
 id: CO_343:0100215
 name: Duration of heterophyllic period computation in days after planting
 namespace: YamTrait
+def: "Duration from emergence to first true leaf in days after planting" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100003 ! days
 relationship: variable_of CO_343:0100216 ! Duration from emergence to first true leaf
@@ -5921,6 +5927,7 @@ relationship: method_of CO_343:0100216 ! Duration from emergence to first true l
 id: CO_343:0100218
 name: Maximum ground cover computation in %
 namespace: YamTrait
+def: "Subplot maximum ground cover from weekly image analysis in %" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100006 ! %
 relationship: variable_of CO_343:0100219 ! Maximum ground cover
@@ -5946,6 +5953,7 @@ relationship: method_of CO_343:0100219 ! Maximum ground cover
 id: CO_343:0100221
 name: Crop vigor computation in days from median emergence to 80% of maximum ground cover
 namespace: YamTrait
+def: "Duration from median emergence to 80% of maximum ground cover of subplot in days" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100003 ! days
 relationship: variable_of CO_343:0100222 ! Crop vigor
@@ -5971,6 +5979,7 @@ relationship: method_of CO_343:0100222 ! Crop vigor
 id: CO_343:0100224
 name: Crop cover compactness computation
 namespace: YamTrait
+def: "Ratio between subplot ground cover area and its respective convex hull area" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100225 ! Crop folliage compactness
 relationship: variable_of CO_343:0100226 ! Ratio between subplot ground cover area and its respective convex hull area - Computation
@@ -6010,6 +6019,7 @@ relationship: scale_of CO_343:0100256 ! Color difference bewteen mean tuber fles
 id: CO_343:0100228
 name: Senescence earliness computation in days from median emergence to 5% senescence
 namespace: YamTrait
+def: "Senescence earliness as the duration in days from median emergence to 5% senescence of subplot" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100003 ! days
 relationship: variable_of CO_343:0100229 ! Senescence earliness
@@ -6035,6 +6045,7 @@ relationship: method_of CO_343:0100229 ! Senescence earliness
 id: CO_343:0100231
 name: Senescence period duration computation in days between 5 and 95% senescence
 namespace: YamTrait
+def: "Duration of the senescence period of a subplot in days between 5% emergence and 95% senescence" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100003 ! days
 relationship: variable_of CO_343:0100232 ! Senescence duration
@@ -6060,6 +6071,7 @@ relationship: method_of CO_343:0100232 ! Senescence duration
 id: CO_343:0100234
 name: Growth cycle length computation in days between 5% emergence and 95% senescence
 namespace: YamTrait
+def: "Duration of the growth cycle of a subplot in days between 5% emergence and 95% senescence" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100003 ! days
 relationship: variable_of CO_343:0100235 ! Growth cycle length
@@ -6085,6 +6097,7 @@ relationship: method_of CO_343:0100235 ! Growth cycle length
 id: CO_343:0100237
 name: Tuber flesh color computation
 namespace: YamTrait
+def: "The tuber flesh color computation from standardized image" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100227 ! uniteless
 relationship: variable_of CO_343:0100238 ! Tuber flesh color
@@ -6110,6 +6123,7 @@ relationship: method_of CO_343:0100238 ! Tuber flesh color
 id: CO_343:0100240
 name: Tuber flesh color gradient computation
 namespace: YamTrait
+def: "The color difference bewteen mean tuber head and tail flesh color computed from standardized image" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100227 ! uniteless
 relationship: variable_of CO_343:0100241 ! Tuber flesh uniformity
@@ -6135,6 +6149,7 @@ relationship: method_of CO_343:0100241 ! Tuber flesh uniformity
 id: CO_343:0100243
 name: Tuber flesh brownness computation
 namespace: YamTrait
+def: "The tuber flesh brown index computation from standardized image" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100227 ! uniteless
 relationship: variable_of CO_343:0100244 ! Browness of the Tuber flesh colour
@@ -6160,6 +6175,7 @@ relationship: method_of CO_343:0100244 ! Browness of the Tuber flesh colour
 id: CO_343:0100246
 name: Tuber flesh whiteness computation
 namespace: YamTrait
+def: "The tuber flesh white index computation from standardized image" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100227 ! uniteless
 relationship: variable_of CO_343:0100247 ! Whitness of the Flesh colour
@@ -6185,6 +6201,7 @@ relationship: method_of CO_343:0100247 ! Whitness of the Flesh colour
 id: CO_343:0100249
 name: Tuber flesh yellowness computation
 namespace: YamTrait
+def: "The tuber flesh yellow index computation from standardized image" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100227 ! uniteless
 relationship: variable_of CO_343:0100250 ! Yellowness of the Flesh colour
@@ -6210,6 +6227,7 @@ relationship: method_of CO_343:0100250 ! Yellowness of the Flesh colour
 id: CO_343:0100252
 name: Tuber color uniformity computation
 namespace: YamTrait
+def: "The mean color difference between average tuber flesh color computed from standardized image" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100227 ! uniteless
 relationship: variable_of CO_343:0100241 ! Tuber flesh uniformity
@@ -6228,6 +6246,7 @@ relationship: method_of CO_343:0100241 ! Tuber flesh uniformity
 id: CO_343:0100254
 name: Intensity of tuber flesh oxidation computation
 namespace: YamTrait
+def: "The color difference bewteen mean tuber flesh color computed from standardized image." []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100227 ! uniteless
 relationship: variable_of CO_343:0100255 ! Tuber flesh browning
@@ -6253,6 +6272,7 @@ relationship: method_of CO_343:0100255 ! Tuber flesh browning
 id: CO_343:0100257
 name: Tuber flour protein content computation
 namespace: YamTrait
+def: "The flour protein content predicted by NIRS model in %" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100006 ! %
 relationship: variable_of CO_343:0100258 ! Tuber flour protein content
@@ -6280,6 +6300,7 @@ relationship: method_of CO_343:0100263 ! Tuber flour sugar content
 id: CO_343:0100260
 name: Tuber flour starch content computation
 namespace: YamTrait
+def: "The flour starch content predicted by NIRS model in %" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100006 ! %
 relationship: variable_of CO_343:0100259 ! NIRS model prediction - computation
@@ -6297,6 +6318,7 @@ is_a: CO_343:1000007 ! Quality_trait
 id: CO_343:0100262
 name: Tuber flour sugar content computation
 namespace: YamTrait
+def: "The tuber flour sugar content predicted by NIRS model in %" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100006 ! %
 relationship: variable_of CO_343:0100259 ! NIRS model prediction - computation
@@ -6314,6 +6336,7 @@ is_a: CO_343:1000007 ! Quality_trait
 id: CO_343:0100264
 name: Starch grain size computation
 namespace: YamTrait
+def: "The starch grain size in µm computed from microscopy image analysis" []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100265 ! Starch grain size
 relationship: variable_of CO_343:0100266 ! Microscopy image analysis
