@@ -5995,7 +5995,7 @@ relationship: method_of CO_343:0100225 ! Crop folliage compactness
 [Term]
 id: CO_343:0100227
 name: unitless
-namespace: YamTrait
+namespace: YamScale
 is_a: CO_343:1000019 ! Numerical
 relationship: scale_of CO_343:0100226 ! Ratio between subplot ground cover area and its respective convex hull area - Computation
 relationship: scale_of CO_343:0100239 ! Tuber flesh color computation from standardized image L*a*b* values
@@ -6338,7 +6338,7 @@ relationship: method_of CO_343:0100265 ! Starch grain size
 [Term]
 id: CO_343:0100267
 name: µm
-namespace: YamTrait
+namespace: YamScale
 is_a: CO_343:1000019 ! Numerical
 relationship: scale_of CO_343:0100266 ! Microscopy image analysis
 
