@@ -5780,7 +5780,7 @@ is_a: CO_343:1000006 ! Phenological_trait
 [Term]
 id: CO_343:0100201
 name: Period from planting to median emergence
-namespace: YamTrait
+namespace: YamMethod
 is_a: CO_343:1000013 ! Computation
 def: "Computation of inflection point value using log-logistic time-to-event modeling of weekly sprout counts expressed in days after planting" []
 relationship: method_of CO_343:0100200 ! Earliness of emergence
@@ -5805,7 +5805,7 @@ def: "Elapsed time between planting date and date of 5th percentile emergence sp
 [Term]
 id: CO_343:0100204
 name: Period from planting to 5% emergence
-namespace: YamTrait
+namespace: YamMethod
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100203 ! Latency before emergence
 def: "Computation of the necessary time before 5% emergence using after-fitting inverse regression of log-logistic time-to-event modeling of weekly sprout counts expressed in days after planting" []
@@ -5830,7 +5830,7 @@ is_a: CO_343:1000008 ! Agronomical_trait
 [Term]
 id: CO_343:0100207
 name: Period from 5% to 95% emergence
-namespace: YamTrait
+namespace: YamMethod
 def: "Computation of the substraction between the necessary time before 95% and 5% emergence using after-fitting inverse regression of log-logistic time-to-event modeling of weekly sprout counts expressed in days after planting" []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100206 ! Emergence vigor
@@ -5855,7 +5855,7 @@ is_a: CO_343:1000010 ! Morphological_trait
 [Term]
 id: CO_343:0100210
 name: Presence of cataphylle
-namespace: YamTrait
+namespace: YamMethod
 def: "Observe the presence or absence of cataphylle" []
 is_a: CO_343:1000014 ! Estimation
 relationship: method_of CO_343:0100209 ! Heterophylly presence
@@ -5880,7 +5880,7 @@ is_a: CO_343:1000010 ! Morphological_trait
 [Term]
 id: CO_343:0100213
 name: Nodes carrying cataphylles  - Counting
-namespace: YamTrait
+namespace: YamMethod
 def: "Compute the average of the number of nodes carrying cataphylles on the main stem of 5 plants choosen randomly" []
 is_a: CO_343:1000012 ! Counting
 relationship: method_of CO_343:0100212 ! Number of nodes carrying cataphylles
@@ -5912,7 +5912,7 @@ is_a: CO_343:1000006 ! Phenological_trait
 [Term]
 id: CO_343:0100217
 name: Duration of heterophylly period - Computing
-namespace: YamTrait
+namespace: YamMethod
 def: "Compute the average of the period from emergence to first true leaf appearance on the main stem of 5 plants choosen randomly" []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100216 ! Duration from emergence to first true leaf
@@ -5937,7 +5937,7 @@ is_a: CO_343:1000008 ! Agronomical_trait
 [Term]
 id: CO_343:0100220
 name: Subplot maximum ground cover from weekly image analysis - Computation
-namespace: YamTrait
+namespace: YamMethod
 def: "Averaged maximum ground cover over two subplots. \nGround cover computed from weekly images analysis. \nMaximum ground cover computed from ground cover dynamic modeled using time to event Beta Growth model. " []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100219 ! Maximum ground cover
@@ -5962,7 +5962,7 @@ is_a: CO_343:1000008 ! Agronomical_trait
 [Term]
 id: CO_343:0100223
 name: Duration from median emergence to 80% of maximum ground cover of subplot - Computation
-namespace: YamTrait
+namespace: YamMethod
 def: "Averaged crop vigor expressed in days from median emergence to 80% of maximum ground cover in subplots.\nGround cover computed from weekly images analysis. \nTime at 80% of maximum growth computed via inverse regression of time to event Beta ground cover dynamic model. " []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100222 ! Crop vigor
@@ -5987,7 +5987,7 @@ is_a: CO_343:1000010 ! Morphological_trait
 [Term]
 id: CO_343:0100226
 name: Ratio between subplot ground cover area and its respective convex hull area - Computation 
-namespace: YamTrait
+namespace: YamMethod
 def: "Averaged crop cover compactness over two subplots images around time of 50% of maximum ground cover.\nGround cover computed from weekly images analysis. \nTime at 50% of maximum growth computed via inverse regression of time to event Beta ground cover dynamic model. \nImages choosen as near as possible of date of time at 50% of maximum growth .\nCompactness computed as the ration between ground cover area (pixels) and its respective convex hull area (pixels)." []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100225 ! Crop folliage compactness
@@ -6026,7 +6026,7 @@ is_a: CO_343:1000006 ! Phenological_trait
 [Term]
 id: CO_343:0100230
 name: Duration from median emergence to 5% senescence of subplot - Computation
-namespace: YamTrait
+namespace: YamMethod
 def: "Averaged senescence earliness expressed in days from median emergence to 5% senescence (i.e. 95% of maximum ground cover after time to maximum ground cover) in two subplots.\nGround cover computed from weekly images analysis. \nTime at 95% of maximum growth after time at maximum growth computed via inverse regression of time to event Beta ground cover dynamic model." []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100229 ! Senescence earliness
@@ -6051,7 +6051,7 @@ is_a: CO_343:1000006 ! Phenological_trait
 [Term]
 id: CO_343:0100233
 name: Duration between 5 and 95% senescence of subplot - Computation
-namespace: YamTrait
+namespace: YamMethod
 def: "Averaged senescence period duration expressed in days between 5 and 95% senescence (i.e. 95%  and 5% of maximum ground cover after time to maximum ground cover) in two subplots.\nGround cover computed from weekly images analysis. \nTime at 95% and 5% of maximum growth after time at maximum growth computed via inverse regression of time to event Beta ground cover dynamic model." []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100232 ! Senescence duration
@@ -6076,7 +6076,7 @@ is_a: CO_343:1000006 ! Phenological_trait
 [Term]
 id: CO_343:0100236
 name: Duration between 5% emergence and 95% senescence of subplot - Computation
-namespace: YamTrait
+namespace: YamMethod
 def: "Averaged growth cycle duration expressed in days between  5% emergence and 95% senescence (i.e. 5% of maximum ground cover after time to maximum ground cover) in two subplots.\nGround cover computed from weekly images analysis. \nMedian senescence computed from inflection point value using log-logistic time-to-event modeling of weekly sprout counts expressed in days after planting.\nTime at 5% of maximum growth after time at maximum growth computed via inverse regression of time to event Beta ground cover dynamic model." []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100235 ! Growth cycle length
@@ -6101,7 +6101,7 @@ is_a: CO_343:1000007 ! Quality_trait
 [Term]
 id: CO_343:0100239
 name: Tuber flesh color computation from standardized image L*a*b* values 
-namespace: YamTrait
+namespace: YamMethod
 def: "Compute the average of the flesh surface color of tuber longitudinal section using image analysis with a color correction based on a custom color chart " []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100238 ! Tuber flesh color
@@ -6126,7 +6126,7 @@ is_a: CO_343:1000007 ! Quality_trait
 [Term]
 id: CO_343:0100242
 name: Color difference bewteen mean tuber head and tail flesh color computed from standardized image L*a*b* values 
-namespace: YamTrait
+namespace: YamMethod
 def: "Compute the ∆E2000 bewteen mean tuber head and tail flesh color computed from standardized image L*a*b* values " []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100241 ! Tuber flesh uniformity
@@ -6151,7 +6151,7 @@ is_a: CO_343:1000007 ! Quality_trait
 [Term]
 id: CO_343:0100245
 name: Tuber flesh brown index computation from standardized image L*a*b* values 
-namespace: YamTrait
+namespace: YamMethod
 def: "Compute the brown index based on the flesh surface color of tuber longitudinal section using image analysis with a color correction based on a custom color chart " []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100244 ! Browness of the Tuber flesh colour
@@ -6176,7 +6176,7 @@ is_a: CO_343:1000007 ! Quality_trait
 [Term]
 id: CO_343:0100248
 name: Tuber flesh white index computation from standardized image L*a*b* values 
-namespace: YamTrait
+namespace: YamMethod
 def: "Compute the white index based on the flesh surface color of tuber longitudinal section using image analysis with a color correction based on a custom color chart " []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100247 ! Whitness of the Flesh colour
@@ -6201,7 +6201,7 @@ is_a: CO_343:1000007 ! Quality_trait
 [Term]
 id: CO_343:0100251
 name: Tuber flesh yellow index computation from standardized image L*a*b* values 
-namespace: YamTrait
+namespace: YamMethod
 def: "Compute the yellow index based on the flesh surface color of tuber longitudinal section using image analysis with a color correction based on a custom color chart " []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100250 ! Yellowness of the Flesh colour
@@ -6219,7 +6219,7 @@ created_by: D. Cornut
 [Term]
 id: CO_343:0100253
 name: Mean color difference between average tuber flesh color computed from standardized image L*a*b* values and  tuber flesh color of individual pixel values 
-namespace: YamTrait
+namespace: YamMethod
 def: "Compute the ∆E2000 between average tuber flesh color computed from standardized image L*a*b* values and  tuber flesh color of individual pixel values " []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100241 ! Tuber flesh uniformity
@@ -6244,7 +6244,7 @@ is_a: CO_343:1000007 ! Quality_trait
 [Term]
 id: CO_343:0100256
 name: Color difference bewteen mean tuber flesh color computed from standardized image L*a*b* values at cutting and 15 minutes latter 
-namespace: YamTrait
+namespace: YamMethod
 def: "Compute the ∆E2000 bewteen mean tuber flesh color computed from standardized image L*a*b* values at cutting and 15 minutes latter " []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100255 ! Tuber flesh browning
@@ -6269,7 +6269,7 @@ is_a: CO_343:1000007 ! Quality_trait
 [Term]
 id: CO_343:0100259
 name: NIRS model prediction - computation
-namespace: YamTrait
+namespace: YamMethod
 def: "Prediction of sugar content using NIRS spectra (FOSS 6500) of tuber flour sample" []
 is_a: CO_343:1000021 ! Prediction
 relationship: method_of CO_343:0100258 ! Tuber flour protein content
@@ -6330,7 +6330,7 @@ is_a: CO_343:1000007 ! Quality_trait
 [Term]
 id: CO_343:0100266
 name: Microscopy image analysis
-namespace: YamTrait
+namespace: YamMethod
 def: "Microscopy (10x) image analysis of iodin colored yam tuber flour (0.5mm)" []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100265 ! Starch grain size
