@@ -5893,7 +5893,7 @@ relationship: method_of CO_343:0100212 ! Number of nodes carrying cataphylles
 [Term]
 id: CO_343:0100214
 name: Nodes carrying cataphylle per plant
-namespace: YamTrait
+namespace: YamScale
 is_a: CO_343:1000019 ! Numerical
 relationship: scale_of CO_343:0100213 ! Nodes carrying cataphylles  - Counting
 
@@ -5995,7 +5995,7 @@ is_a: CO_343:1000010 ! Morphological_trait
 
 [Term]
 id: CO_343:0100226
-name: Ratio between subplot ground cover area and its respective convex hull area - Computation 
+name: Ratio between subplot ground cover area and its respective convex hull area - Computation
 namespace: YamMethod
 def: "Averaged crop cover compactness over two subplots images around time of 50% of maximum ground cover.\nGround cover computed from weekly images analysis. \nTime at 50% of maximum growth computed via inverse regression of time to event Beta ground cover dynamic model. \nImages choosen as near as possible of date of time at 50% of maximum growth .\nCompactness computed as the ration between ground cover area (pixels) and its respective convex hull area (pixels)." []
 is_a: CO_343:1000013 ! Computation
@@ -6054,7 +6054,7 @@ created_by: D. Cornut
 
 [Term]
 id: CO_343:0100232
-name: Senescence duration 
+name: Senescence duration
 namespace: YamTrait
 def: "Time between 5 and 95% senescence" []
 is_a: CO_343:1000006 ! Phenological_trait
@@ -6106,14 +6106,14 @@ created_by: D. Cornut
 
 [Term]
 id: CO_343:0100238
-name: Tuber flesh color 
+name: Tuber flesh color
 def: "The surface color of the yam tuber flesh" []
 namespace: YamTrait
 is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
 id: CO_343:0100239
-name: Tuber flesh color computation from standardized image L*a*b* values 
+name: Tuber flesh color computation from standardized image L*a*b* values
 namespace: YamMethod
 def: "Compute the average of the flesh surface color of tuber longitudinal section using image analysis with a color correction based on a custom color chart " []
 is_a: CO_343:1000013 ! Computation
@@ -6132,14 +6132,14 @@ created_by: D. Cornut
 
 [Term]
 id: CO_343:0100241
-name: Tuber flesh uniformity 
+name: Tuber flesh uniformity
 namespace: YamTrait
 def: "Uniformity of tuber flesh surface color in longitudinal section" []
 is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
 id: CO_343:0100242
-name: Color difference bewteen mean tuber head and tail flesh color computed from standardized image L*a*b* values 
+name: Color difference bewteen mean tuber head and tail flesh color computed from standardized image L*a*b* values
 namespace: YamMethod
 def: "Compute the ∆E2000 bewteen mean tuber head and tail flesh color computed from standardized image L*a*b* values " []
 is_a: CO_343:1000013 ! Computation
@@ -6165,7 +6165,7 @@ is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
 id: CO_343:0100245
-name: Tuber flesh brown index computation from standardized image L*a*b* values 
+name: Tuber flesh brown index computation from standardized image L*a*b* values
 namespace: YamMethod
 def: "Compute the brown index based on the flesh surface color of tuber longitudinal section using image analysis with a color correction based on a custom color chart " []
 is_a: CO_343:1000013 ! Computation
@@ -6191,7 +6191,7 @@ is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
 id: CO_343:0100248
-name: Tuber flesh white index computation from standardized image L*a*b* values 
+name: Tuber flesh white index computation from standardized image L*a*b* values
 namespace: YamMethod
 def: "Compute the white index based on the flesh surface color of tuber longitudinal section using image analysis with a color correction based on a custom color chart " []
 is_a: CO_343:1000013 ! Computation
@@ -6217,7 +6217,7 @@ is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
 id: CO_343:0100251
-name: Tuber flesh yellow index computation from standardized image L*a*b* values 
+name: Tuber flesh yellow index computation from standardized image L*a*b* values
 namespace: YamMethod
 def: "Compute the yellow index based on the flesh surface color of tuber longitudinal section using image analysis with a color correction based on a custom color chart " []
 is_a: CO_343:1000013 ! Computation
@@ -6236,7 +6236,7 @@ created_by: D. Cornut
 
 [Term]
 id: CO_343:0100253
-name: Mean color difference between average tuber flesh color computed from standardized image L*a*b* values and  tuber flesh color of individual pixel values 
+name: Mean color difference between average tuber flesh color computed from standardized image L*a*b* values and  tuber flesh color of individual pixel values
 namespace: YamMethod
 def: "Compute the ∆E2000 between average tuber flesh color computed from standardized image L*a*b* values and  tuber flesh color of individual pixel values " []
 is_a: CO_343:1000013 ! Computation
@@ -6255,14 +6255,14 @@ created_by: D. Cornut
 
 [Term]
 id: CO_343:0100255
-name: Tuber flesh browning 
+name: Tuber flesh browning
 namespace: YamTrait
 def: "Intensity of tuber flesh enzymatic oxidation (degree of flesh color change or browning of cut yam tuber)" []
 is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
 id: CO_343:0100256
-name: Color difference bewteen mean tuber flesh color computed from standardized image L*a*b* values at cutting and 15 minutes latter 
+name: Color difference bewteen mean tuber flesh color computed from standardized image L*a*b* values at cutting and 15 minutes latter
 namespace: YamMethod
 def: "Compute the ∆E2000 bewteen mean tuber flesh color computed from standardized image L*a*b* values at cutting and 15 minutes latter " []
 is_a: CO_343:1000013 ! Computation
@@ -6513,4 +6513,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
