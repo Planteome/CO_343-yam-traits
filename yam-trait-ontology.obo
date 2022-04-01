@@ -3818,6 +3818,41 @@ relationship: method_of CO_343:0000444 ! cohesiveness of pounded yam
 created_by: D. Cornet
 
 [Term]
+id: CO_343:0003005
+name: 'hardness of pounded yam'
+namespace: YamTrait
+def: "Measurement of hardness of pounded yam" []
+is_a: CO_343:1000007 ! Quality_trait
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003006
+name: 'Hardness of pounded yam measured in Newtons'
+namespace: YamTrait
+def: "Measurement of hardness based on Texture Profile Analysis using double compression test on pounded yam sample. Hardness is the highest peak force measured during first compression." []
+is_a: CO_343:0003008 ! hardness of pounded yam- measurement
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003005 ! 'hardness of pounded yam'
+relationship: variable_of CO_343:0003007 ! Newtons
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003007
+name: Newtons
+namespace: YamScale
+synonym: "N" EXACT []
+is_a: CO_343:0003006 ! 'Hardness of pounded yam measured in Newtons'
+is_a: CO_343:1000019 ! Numerical
+
+[Term]
+id: CO_343:0003008
+name: hardness of pounded yam- measurement
+namespace: YamMethod
+def: "Texture Profile Analysis using double compression test allwo to define hardness as the highest peak force measured during first compression in Newtons" []
+is_a: CO_343:1000011 ! Measurement
+relationship: method_of CO_343:0000444 ! cohesiveness of pounded yam
+
+[Term]
 id: CO_343:0010000
 name: tubers (seed yams or setts) planted - counting
 namespace: YamMethod
