@@ -3798,6 +3798,26 @@ relationship: method_of CO_343:0000446 ! springiness of pounded yam
 created_by: D. Cornet
 
 [Term]
+id: CO_343:0003003
+name: Cohesiveness proportion
+namespace: YamTrait
+def: "Measurement of cohesiveness based on Texture Profile Analysis using double compression test on pounded yam sample. Cohesiveness is the area underneath the second compression curve divided by the area underneath the first compression curve." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000444 ! cohesiveness of pounded yam
+relationship: variable_of CO_343:0010158 ! cohesiveness of pounded yam- estimation
+relationship: variable_of CO_343:0100227 ! unitless
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003004
+name: 'cohesiveness of pounded yam- proportion'
+namespace: YamMethod
+def: "Texture Profile Analysis using double compression test allwo to define cohesiveness as the area underneath the second compression curve divided by the area underneath the first compression curve." []
+is_a: CO_343:1000013 ! Computation
+relationship: method_of CO_343:0000444 ! cohesiveness of pounded yam
+created_by: D. Cornet
+
+[Term]
 id: CO_343:0010000
 name: tubers (seed yams or setts) planted - counting
 namespace: YamMethod
