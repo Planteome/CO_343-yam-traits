@@ -3853,6 +3853,33 @@ is_a: CO_343:1000011 ! Measurement
 relationship: method_of CO_343:0000444 ! cohesiveness of pounded yam
 
 [Term]
+id: CO_343:0003009
+name: Mouldability of pounded yam- boolean visual assesment
+namespace: YamTrait
+def: "Visual assessment of the ability of boiled yam to form a paste after mechanical pounding (dough or puree appearance). 0=mouldable, 1=not mouldable." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003010 ! Mouldability of pounded yam
+relationship: variable_of CO_343:0003011 ! mouldability of pounded yam - estimation
+relationship: variable_of CO_343:0100045 ! 0-1 binary scale
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003010
+name: Mouldability of pounded yam
+namespace: YamTrait
+def: "ability of pounded yam to form a paste" []
+is_a: CO_343:1000007 ! Quality_trait
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003011
+name: mouldability of pounded yam - estimation
+namespace: YamMethod
+def: "Visual assessment of the ability of boiled yam to form a paste after mechanical pounding (dough or puree appearance)." []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of CO_343:0003010 ! Mouldability of pounded yam
+
+[Term]
 id: CO_343:0010000
 name: tubers (seed yams or setts) planted - counting
 namespace: YamMethod
