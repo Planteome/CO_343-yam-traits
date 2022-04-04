@@ -3786,7 +3786,7 @@ synonym: "AUDPC_YAD" EXACT []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0000021 ! yam anthracnose disease severity
 relationship: variable_of CO_343:0003013 ! Area under disease progression curve for yam anthracnose disease calculation
-relationship: variable_of CO_343:0100035 ! 1-5 general scale
+relationship: variable_of CO_343:0003014 ! AUDPC for for yam anthracnose disease
 
 [Term]
 id: CO_343:0003013
@@ -3803,6 +3803,33 @@ namespace: YamScale
 is_a: CO_343:1000019 ! Numerical
 relationship: scale_of CO_343:0003013 ! Area under disease progression curve for yam anthracnose disease calculation
 property_value: seeAlso https://www.apsnet.org/edcenter/disimpactmngmnt/topc/EcologyAndEpidemiologyInR/DiseaseProgress/Pages/AUDPC.aspx xsd:string
+
+[Term]
+id: CO_343:0003015
+name: 'Area under disease progression curve for yam mosaic virus calculation'
+namespace: YamMethod
+def: "Observe relative or absolute area of plant tissue affected by yam anthracnose disease and record the severity as a proportion or percentage of plant surface affected.It is visual score in scale under screenhouse, artificial inoculation or under field natural infestation. For artificial inoculation use a suspension of three most virulent strains of Colletothrichum gloeosporioides and inoculate the plants raised from vine cutting in vertical sack or other means by spraying. For natural infestation, scores can be taken 10 to 12 weeks after planting and second scoring about 4-6 weeks before harvesting . Artificial inoculation should be scored at 3 days after inoculation(DAI) , and repeated at 7DAI, 11DAI and 15DAI" []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of CO_343:0000021 ! yam anthracnose disease severity
+
+[Term]
+id: CO_343:0003016
+name: 'AUDPC for for yam mosaic virus disease'
+namespace: YamScale
+is_a: CO_343:1000019 ! Numerical
+relationship: scale_of CO_343:0003015 ! 'Area under disease progression curve for yam mosaic virus calculation'
+property_value: seeAlso https://www.apsnet.org/edcenter/disimpactmngmnt/topc/EcologyAndEpidemiologyInR/DiseaseProgress/Pages/AUDPC.aspx xsd:string
+
+[Term]
+id: CO_343:0003017
+name: 'Area under disease progression curve for yam mosaic virus severity disease'
+namespace: YamTrait
+def: "The area under disease progression curve for yam mosaic virus disease calculated with the AUDPC formula." []
+synonym: "AUDPC_YMV" EXACT []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000021 ! yam anthracnose disease severity
+relationship: variable_of CO_343:0003015 ! 'Area under disease progression curve for yam mosaic virus calculation'
+relationship: variable_of CO_343:0003016 ! 'AUDPC for for yam mosaic virus disease'
 
 [Term]
 id: CO_343:0010000
