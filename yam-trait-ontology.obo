@@ -3778,6 +3778,108 @@ relationship: variable_of CO_343:0012005 ! pasting temperature - measurement
 relationship: variable_of CO_343:0102001 ! deg
 
 [Term]
+id: CO_343:0003001
+name: Springness proportion
+namespace: YamTrait
+def: "Measurement of springiness based on Texture Profile Analysis using double compression test on pounded yam sample. Springiness is the ratio between distances from the onset to peak force of the second to the first compression cycle." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000446 ! springiness of pounded yam
+relationship: variable_of CO_343:0010159 ! springiness of pounded yam-estimation
+relationship: variable_of CO_343:0100227 ! unitless
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003002
+name: 'springiness of pounded yam - proportion'
+namespace: YamMethod
+def: "Texture Profile Analysis using double compression test allwo to define springiness as the ratio between distances from the onset to peak force of the second to the first compression cycle." []
+is_a: CO_343:1000013 ! Computation
+relationship: method_of CO_343:0000446 ! springiness of pounded yam
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003003
+name: Cohesiveness proportion
+namespace: YamTrait
+def: "Measurement of cohesiveness based on Texture Profile Analysis using double compression test on pounded yam sample. Cohesiveness is the area underneath the second compression curve divided by the area underneath the first compression curve." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000444 ! cohesiveness of pounded yam
+relationship: variable_of CO_343:0010158 ! cohesiveness of pounded yam- estimation
+relationship: variable_of CO_343:0100227 ! unitless
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003004
+name: 'cohesiveness of pounded yam- proportion'
+namespace: YamMethod
+def: "Texture Profile Analysis using double compression test allwo to define cohesiveness as the area underneath the second compression curve divided by the area underneath the first compression curve." []
+is_a: CO_343:1000013 ! Computation
+relationship: method_of CO_343:0000444 ! cohesiveness of pounded yam
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003005
+name: 'hardness of pounded yam'
+namespace: YamTrait
+def: "Measurement of hardness of pounded yam" []
+is_a: CO_343:1000007 ! Quality_trait
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003006
+name: 'Hardness of pounded yam measured in Newtons'
+namespace: YamTrait
+def: "Measurement of hardness based on Texture Profile Analysis using double compression test on pounded yam sample. Hardness is the highest peak force measured during first compression." []
+is_a: CO_343:0003008 ! hardness of pounded yam- measurement
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003005 ! 'hardness of pounded yam'
+relationship: variable_of CO_343:0003007 ! Newtons
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003007
+name: Newtons
+namespace: YamScale
+synonym: "N" EXACT []
+is_a: CO_343:0003006 ! 'Hardness of pounded yam measured in Newtons'
+is_a: CO_343:1000019 ! Numerical
+
+[Term]
+id: CO_343:0003008
+name: hardness of pounded yam- measurement
+namespace: YamMethod
+def: "Texture Profile Analysis using double compression test allwo to define hardness as the highest peak force measured during first compression in Newtons" []
+is_a: CO_343:1000011 ! Measurement
+relationship: method_of CO_343:0000444 ! cohesiveness of pounded yam
+
+[Term]
+id: CO_343:0003009
+name: Mouldability of pounded yam- boolean visual assesment
+namespace: YamTrait
+def: "Visual assessment of the ability of boiled yam to form a paste after mechanical pounding (dough or puree appearance). 0=mouldable, 1=not mouldable." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003010 ! Mouldability of pounded yam
+relationship: variable_of CO_343:0003011 ! mouldability of pounded yam - estimation
+relationship: variable_of CO_343:0100045 ! 0-1 binary scale
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003010
+name: Mouldability of pounded yam
+namespace: YamTrait
+def: "ability of pounded yam to form a paste" []
+is_a: CO_343:1000007 ! Quality_trait
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003011
+name: mouldability of pounded yam - estimation
+namespace: YamMethod
+def: "Visual assessment of the ability of boiled yam to form a paste after mechanical pounding (dough or puree appearance)." []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of CO_343:0003010 ! Mouldability of pounded yam
+
+[Term]
 id: CO_343:0010000
 name: tubers (seed yams or setts) planted - counting
 namespace: YamMethod
@@ -5782,8 +5884,8 @@ is_a: CO_343:1000006 ! Phenological_trait
 id: CO_343:0100201
 name: Period from planting to median emergence
 namespace: YamMethod
-is_a: CO_343:1000013 ! Computation
 def: "Computation of inflection point value using log-logistic time-to-event modeling of weekly sprout counts expressed in days after planting" []
+is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100200 ! Earliness of emergence
 
 [Term]
@@ -5801,16 +5903,16 @@ created_by: D. Cornut
 id: CO_343:0100203
 name: Latency before emergence
 namespace: YamTrait
-is_a: CO_343:1000006 ! Phenological_trait
 def: "Elapsed time between planting date and date of 5th percentile emergence sprouts in a plot" []
+is_a: CO_343:1000006 ! Phenological_trait
 
 [Term]
 id: CO_343:0100204
 name: Period from planting to 5% emergence
 namespace: YamMethod
+def: "Computation of the necessary time before 5% emergence using after-fitting inverse regression of log-logistic time-to-event modeling of weekly sprout counts expressed in days after planting" []
 is_a: CO_343:1000013 ! Computation
 relationship: method_of CO_343:0100203 ! Latency before emergence
-def: "Computation of the necessary time before 5% emergence using after-fitting inverse regression of log-logistic time-to-event modeling of weekly sprout counts expressed in days after planting" []
 
 [Term]
 id: CO_343:0100205
@@ -5983,7 +6085,7 @@ def: "Ratio between subplot ground cover area and its respective convex hull are
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0100225 ! Crop folliage compactness
 relationship: variable_of CO_343:0100226 ! Ratio between subplot ground cover area and its respective convex hull area - Computation
-relationship: variable_of CO_343:0100227 ! uniteless
+relationship: variable_of CO_343:0100227 ! unitless
 created_by: D. Cornut
 
 [Term]
@@ -6081,8 +6183,8 @@ created_by: D. Cornut
 [Term]
 id: CO_343:0100235
 name: Growth cycle length
-def: "Time between 5% emergence and 95% senescence" []
 namespace: YamTrait
+def: "Time between 5% emergence and 95% senescence" []
 is_a: CO_343:1000006 ! Phenological_trait
 
 [Term]
@@ -6099,7 +6201,7 @@ name: Tuber flesh color computation
 namespace: YamTrait
 def: "The tuber flesh color computation from standardized image" []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0100227 ! uniteless
+relationship: variable_of CO_343:0100227 ! unitless
 relationship: variable_of CO_343:0100238 ! Tuber flesh color
 relationship: variable_of CO_343:0100239 ! Tuber flesh color computation from standardized image L*a*b* values
 created_by: D. Cornut
@@ -6107,8 +6209,8 @@ created_by: D. Cornut
 [Term]
 id: CO_343:0100238
 name: Tuber flesh color
-def: "The surface color of the yam tuber flesh" []
 namespace: YamTrait
+def: "The surface color of the yam tuber flesh" []
 is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
@@ -6125,7 +6227,7 @@ name: Tuber flesh color gradient computation
 namespace: YamTrait
 def: "The color difference bewteen mean tuber head and tail flesh color computed from standardized image" []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0100227 ! uniteless
+relationship: variable_of CO_343:0100227 ! unitless
 relationship: variable_of CO_343:0100241 ! Tuber flesh uniformity
 relationship: variable_of CO_343:0100242 ! Color difference bewteen mean tuber head and tail flesh color computed from standardized image L*a*b* values
 created_by: D. Cornut
@@ -6151,7 +6253,7 @@ name: Tuber flesh brownness computation
 namespace: YamTrait
 def: "The tuber flesh brown index computation from standardized image" []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0100227 ! uniteless
+relationship: variable_of CO_343:0100227 ! unitless
 relationship: variable_of CO_343:0100244 ! Browness of the Tuber flesh colour
 relationship: variable_of CO_343:0100245 ! Tuber flesh brown index computation from standardized image L*a*b* values
 created_by: D. Cornut
@@ -6177,7 +6279,7 @@ name: Tuber flesh whiteness computation
 namespace: YamTrait
 def: "The tuber flesh white index computation from standardized image" []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0100227 ! uniteless
+relationship: variable_of CO_343:0100227 ! unitless
 relationship: variable_of CO_343:0100247 ! Whitness of the Flesh colour
 relationship: variable_of CO_343:0100248 ! Tuber flesh white index computation from standardized image L*a*b* values
 created_by: D. Cornut
@@ -6203,7 +6305,7 @@ name: Tuber flesh yellowness computation
 namespace: YamTrait
 def: "The tuber flesh yellow index computation from standardized image" []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0100227 ! uniteless
+relationship: variable_of CO_343:0100227 ! unitless
 relationship: variable_of CO_343:0100250 ! Yellowness of the Flesh colour
 relationship: variable_of CO_343:0100251 ! Tuber flesh yellow index computation from standardized image L*a*b* values
 created_by: D. Cornut
@@ -6229,7 +6331,7 @@ name: Tuber color uniformity computation
 namespace: YamTrait
 def: "The mean color difference between average tuber flesh color computed from standardized image" []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0100227 ! uniteless
+relationship: variable_of CO_343:0100227 ! unitless
 relationship: variable_of CO_343:0100241 ! Tuber flesh uniformity
 relationship: variable_of CO_343:0100253 ! Mean color difference between average tuber flesh color computed from standardized image L*a*b* values and  tuber flesh color of individual pixel values
 created_by: D. Cornut
@@ -6248,7 +6350,7 @@ name: Intensity of tuber flesh oxidation computation
 namespace: YamTrait
 def: "The color difference bewteen mean tuber flesh color computed from standardized image." []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0100227 ! uniteless
+relationship: variable_of CO_343:0100227 ! unitless
 relationship: variable_of CO_343:0100255 ! Tuber flesh browning
 relationship: variable_of CO_343:0100256 ! Color difference bewteen mean tuber flesh color computed from standardized image L*a*b* values at cutting and 15 minutes latter
 created_by: D. Cornut
@@ -6282,8 +6384,8 @@ created_by: D. Cornut
 [Term]
 id: CO_343:0100258
 name: Tuber flour protein content
-def: "Tuber flour protein content" []
 namespace: YamTrait
+def: "Tuber flour protein content" []
 is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
@@ -6513,3 +6615,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
