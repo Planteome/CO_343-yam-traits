@@ -3831,6 +3831,107 @@ relationship: variable_of CO_343:0000021 ! yam anthracnose disease severity
 relationship: variable_of CO_343:0003015 ! 'Area under disease progression curve for yam mosaic virus calculation'
 relationship: variable_of CO_343:0003016 ! 'AUDPC for for yam mosaic virus disease'
 
+id: CO_343:0003001
+name: Springness proportion
+namespace: YamTrait
+def: "Measurement of springiness based on Texture Profile Analysis using double compression test on pounded yam sample. Springiness is the ratio between distances from the onset to peak force of the second to the first compression cycle." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000446 ! springiness of pounded yam
+relationship: variable_of CO_343:0010159 ! springiness of pounded yam-estimation
+relationship: variable_of CO_343:0100227 ! unitless
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003002
+name: 'springiness of pounded yam - proportion'
+namespace: YamMethod
+def: "Texture Profile Analysis using double compression test allwo to define springiness as the ratio between distances from the onset to peak force of the second to the first compression cycle." []
+is_a: CO_343:1000013 ! Computation
+relationship: method_of CO_343:0000446 ! springiness of pounded yam
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003003
+name: Cohesiveness proportion
+namespace: YamTrait
+def: "Measurement of cohesiveness based on Texture Profile Analysis using double compression test on pounded yam sample. Cohesiveness is the area underneath the second compression curve divided by the area underneath the first compression curve." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000444 ! cohesiveness of pounded yam
+relationship: variable_of CO_343:0010158 ! cohesiveness of pounded yam- estimation
+relationship: variable_of CO_343:0100227 ! unitless
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003004
+name: 'cohesiveness of pounded yam- proportion'
+namespace: YamMethod
+def: "Texture Profile Analysis using double compression test allwo to define cohesiveness as the area underneath the second compression curve divided by the area underneath the first compression curve." []
+is_a: CO_343:1000013 ! Computation
+relationship: method_of CO_343:0000444 ! cohesiveness of pounded yam
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003005
+name: 'hardness of pounded yam'
+namespace: YamTrait
+def: "Measurement of hardness of pounded yam" []
+is_a: CO_343:1000007 ! Quality_trait
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003006
+name: 'Hardness of pounded yam measured in Newtons'
+namespace: YamTrait
+def: "Measurement of hardness based on Texture Profile Analysis using double compression test on pounded yam sample. Hardness is the highest peak force measured during first compression." []
+is_a: CO_343:0003008 ! hardness of pounded yam- measurement
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003005 ! 'hardness of pounded yam'
+relationship: variable_of CO_343:0003007 ! Newtons
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003007
+name: Newtons
+namespace: YamScale
+synonym: "N" EXACT []
+is_a: CO_343:0003006 ! 'Hardness of pounded yam measured in Newtons'
+is_a: CO_343:1000019 ! Numerical
+
+[Term]
+id: CO_343:0003008
+name: hardness of pounded yam- measurement
+namespace: YamMethod
+def: "Texture Profile Analysis using double compression test allwo to define hardness as the highest peak force measured during first compression in Newtons" []
+is_a: CO_343:1000011 ! Measurement
+relationship: method_of CO_343:0000444 ! cohesiveness of pounded yam
+
+[Term]
+id: CO_343:0003009
+name: Mouldability of pounded yam- boolean visual assesment
+namespace: YamTrait
+def: "Visual assessment of the ability of boiled yam to form a paste after mechanical pounding (dough or puree appearance). 0=mouldable, 1=not mouldable." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003010 ! Mouldability of pounded yam
+relationship: variable_of CO_343:0003011 ! mouldability of pounded yam - estimation
+relationship: variable_of CO_343:0100045 ! 0-1 binary scale
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003010
+name: Mouldability of pounded yam
+namespace: YamTrait
+def: "ability of pounded yam to form a paste" []
+is_a: CO_343:1000007 ! Quality_trait
+created_by: D. Cornet
+
+[Term]
+id: CO_343:0003011
+name: mouldability of pounded yam - estimation
+namespace: YamMethod
+def: "Visual assessment of the ability of boiled yam to form a paste after mechanical pounding (dough or puree appearance)." []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of CO_343:0003010 ! Mouldability of pounded yam
+
 [Term]
 id: CO_343:0010000
 name: tubers (seed yams or setts) planted - counting
