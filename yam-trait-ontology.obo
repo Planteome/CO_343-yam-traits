@@ -2,6 +2,7 @@ format-version: 1.2
 auto-generated-by: java
 default-namespace: yam_trait_ontology
 ontology: TEMP
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003018> \"CO_343:0100237\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003019> \"CO_343:0100239\"^^xsd:string)\n)
 
 [Term]
 id: CO_343:0000000
@@ -3932,6 +3933,25 @@ is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0000021 ! yam anthracnose disease severity
 relationship: variable_of CO_343:0003015 ! 'Area under disease progression curve for yam mosaic virus calculation'
 relationship: variable_of CO_343:0003016 ! 'AUDPC for for yam mosaic virus disease'
+
+[Term]
+id: CO_343:0003018
+name: Tuber flesh color L value chromameter read
+namespace: YamTrait
+def: "The tuber flesh color L value indicates lightness which represents quantitative relationship of colors on three axes. Colour reading using chromameter machine." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003019 ! Tuber flesh color computation L value from chromameter machine
+relationship: variable_of CO_343:0100227 ! unitless
+relationship: variable_of CO_343:0100238 ! Tuber flesh color
+created_by: Agre {comment="dateTime"}
+
+[Term]
+id: CO_343:0003019
+name: Tuber flesh color computation L value from chromameter machine
+namespace: YamMethod
+def: "Compute the L value of the flesh surface color of tuber longitudinal section using chromameter machine" []
+is_a: CO_343:1000013 ! Computation
+relationship: method_of CO_343:0100238 ! Tuber flesh color
 
 [Term]
 id: CO_343:0010000
