@@ -2,7 +2,6 @@ format-version: 1.2
 auto-generated-by: java
 default-namespace: yam_trait_ontology
 ontology: TEMP
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003020> \"CO_343:0003018\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003021> \"CO_343:0003019\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003022> \"CO_343:0003018\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003023> \"CO_343:0003019\"^^xsd:string)\n)
 
 [Term]
 id: CO_343:0000000
@@ -3940,9 +3939,9 @@ name: Tuber flesh color L value chromameter read
 namespace: YamTrait
 def: "The tuber flesh color L value indicates lightness which represents quantitative relationship of colors on three axes. Colour reading using chromameter machine." []
 is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000147 ! tuber flesh color
 relationship: variable_of CO_343:0003019 ! Tuber flesh color computation L value from chromameter machine
 relationship: variable_of CO_343:0100227 ! unitless
-relationship: variable_of CO_343:0100238 ! Tuber flesh color
 created_by: Agre {comment="dateTime"}
 
 [Term]
@@ -3951,7 +3950,8 @@ name: Tuber flesh color computation L value from chromameter machine
 namespace: YamMethod
 def: "Compute the L value of the flesh surface color of tuber longitudinal section using chromameter machine" []
 is_a: CO_343:1000013 ! Computation
-relationship: method_of CO_343:0100238 ! Tuber flesh color
+relationship: variable_of CO_343:0000147 ! tuber flesh color
+
 
 [Term]
 id: CO_343:0003020
@@ -3961,16 +3961,16 @@ def: "The tuber flesh color A value indicates lightness which represents quantit
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0003021 ! Tuber flesh color computation A value from chromameter machine
 relationship: variable_of CO_343:0100227 ! unitless
-relationship: variable_of CO_343:0100238 ! Tuber flesh color
-created_by: Agre {comment="dateTime"}
+relationship: variable_of CO_343:0000147 ! tuber flesh color
+created_by: Agre
 
 [Term]
 id: CO_343:0003021
 name: Tuber flesh color computation A value from chromameter machine
 namespace: YamMethod
 def: "Compute the A value of the flesh surface color of tuber longitudinal section using chromameter machine" []
+relationship: variable_of CO_343:0000147 ! tuber flesh color
 is_a: CO_343:1000013 ! Computation
-relationship: method_of CO_343:0100238 ! Tuber flesh color
 
 [Term]
 id: CO_343:0003022
@@ -3980,8 +3980,8 @@ def: "The tuber flesh color B value indicates lightness which represents quantit
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0003023 ! Tuber flesh color computation B value from chromameter machine
 relationship: variable_of CO_343:0100227 ! unitless
-relationship: variable_of CO_343:0100238 ! Tuber flesh color
-created_by: Agre {comment="dateTime"}
+relationship: variable_of CO_343:0000147 ! tuber flesh color
+created_by: Agre
 
 [Term]
 id: CO_343:0003023
@@ -3989,7 +3989,7 @@ name: Tuber flesh color computation B value from chromameter machine
 namespace: YamMethod
 def: "Compute the B value of the flesh surface color of tuber longitudinal section using chromameter machine" []
 is_a: CO_343:1000013 ! Computation
-relationship: method_of CO_343:0100238 ! Tuber flesh color
+relationship: variable_of CO_343:0000147 ! tuber flesh color
 
 [Term]
 id: CO_343:0010000
@@ -6313,17 +6313,10 @@ name: Tuber flesh color computation
 namespace: YamTrait
 def: "The tuber flesh color computation from standardized image" []
 is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000147 ! tuber flesh color
 relationship: variable_of CO_343:0100227 ! unitless
-relationship: variable_of CO_343:0100238 ! Tuber flesh color
 relationship: variable_of CO_343:0100239 ! Tuber flesh color computation from standardized image L*a*b* values
 created_by: D. Cornut
-
-[Term]
-id: CO_343:0100238
-name: Tuber flesh color
-namespace: YamTrait
-def: "The surface color of the yam tuber flesh" []
-is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
 id: CO_343:0100239
@@ -6331,7 +6324,7 @@ name: Tuber flesh color computation from standardized image L*a*b* values
 namespace: YamMethod
 def: "Compute the average of the flesh surface color of tuber longitudinal section using image analysis with a color correction based on a custom color chart " []
 is_a: CO_343:1000013 ! Computation
-relationship: method_of CO_343:0100238 ! Tuber flesh color
+relationship: variable_of CO_343:0000147 ! tuber flesh color
 
 [Term]
 id: CO_343:0100240
@@ -6727,4 +6720,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
