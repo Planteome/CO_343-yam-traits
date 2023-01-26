@@ -2,7 +2,7 @@ format-version: 1.2
 auto-generated-by: java
 default-namespace: yam_trait_ontology
 ontology: TEMP
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://www.co-ode.org/ontologies/ont.owl#boiled_tuber_mealiness_estimation> \"CO_343:0010145\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://www.co-ode.org/ontologies/ont.owl#boiled_tuber_mealiness_estimation_1-3_scale> \"CO_343:0000425\"^^xsd:string)\n)
 
 [Term]
 id: CO_343:0000000
@@ -6715,6 +6715,22 @@ id: CO_343:1000021
 name: Prediction
 namespace: YamMethod
 is_a: CO_343:1000001 ! Method
+
+[Term]
+id: boiled_tuber_mealiness_estimation
+namespace: YamMethod
+def: "The Mealiness of the boiled tuber is evaluated by a group of an individual using a (1 - 3 scale) as 1=soggy, 2= slightly mealy, 3= mealy" []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of boiled_tuber_mealiness_estimation_1-3_scale
+
+[Term]
+id: boiled_tuber_mealiness_estimation_1-3_scale
+namespace: YamTrait
+def: "The Mealiness of the boiled tuber is evaluated by a group of an individual using a (1 - 3 scale) as 1=soggy, 2= slightly mealy, 3= mealy." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003024 ! Yam tuber mealiness
+relationship: variable_of CO_343:0010145 ! corm size-estimation
+relationship: variable_of CO_343:0100011 ! 1-3 general scale
 
 [Typedef]
 id: method_of
