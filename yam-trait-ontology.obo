@@ -2,7 +2,7 @@ format-version: 1.2
 auto-generated-by: java
 default-namespace: yam_trait_ontology
 ontology: TEMP
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://www.co-ode.org/ontologies/ont.owl#boiled_tuber_mealiness_estimation> \"CO_343:0010145\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://www.co-ode.org/ontologies/ont.owl#boiled_tuber_mealiness_estimation_1-3_scale> \"CO_343:0000425\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://www.co-ode.org/ontologies/ont.owl#boiled_tuber_flesh_texture_estimation_1-3> \"CO_343:0000440\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://www.co-ode.org/ontologies/ont.owl#boiled_tuber_mealiness_estimation> \"CO_343:0010145\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://www.co-ode.org/ontologies/ont.owl#boiled_tuber_mealiness_estimation_1-3_scale> \"CO_343:0000425\"^^xsd:string)\n)
 
 [Term]
 id: CO_343:0000000
@@ -3176,7 +3176,7 @@ created_by: A.Amele
 
 [Term]
 id: CO_343:0000440
-name: Tuber flesh texture estimation 1-3
+name: Fresh tuber flesh texture estimation 1-3
 namespace: YamTrait
 def: "The texture of tuber flesh is recorded using a 1-3 scale where 1= smooth, 2=grainy and 3= very grainy" []
 synonym: "Txf_E_1to3" EXACT []
@@ -6715,6 +6715,15 @@ id: CO_343:1000021
 name: Prediction
 namespace: YamMethod
 is_a: CO_343:1000001 ! Method
+
+[Term]
+id: boiled_tuber_flesh_texture_estimation_1-3
+namespace: YamTrait
+def: "The texture of the boiled tuber is evaluated by a panel of individuals using (1-3 scale): Texture 1= strong; 2= intermediate; 3= soft" []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000439 ! tuber flesh texture
+relationship: variable_of CO_343:0010155 ! tuber flesh texture-estimation
+relationship: variable_of CO_343:0100022 ! 1-3 scale
 
 [Term]
 id: boiled_tuber_mealiness_estimation
