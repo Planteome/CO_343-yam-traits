@@ -2,7 +2,7 @@ format-version: 1.2
 auto-generated-by: java
 default-namespace: yam_trait_ontology
 ontology: TEMP
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003028> \"CO_343:0000432\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003029> \"CO_343:0010149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003030> \"CO_343:0000453\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003031> \"CO_343:0010163\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003028> \"CO_343:0000432\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003029> \"CO_343:0010149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003030> \"CO_343:0000453\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003031> \"CO_343:0010163\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003032> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003033> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003034> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003035> \"CO_343:0000438\"^^xsd:string)\n)
 
 [Term]
 id: CO_343:0000000
@@ -4063,6 +4063,46 @@ namespace: YamMethod
 def: "Score taste of boiled yam using sensory test panalist" []
 is_a: CO_343:1000014 ! Estimation
 relationship: method_of CO_343:0000194 ! yam taste trait
+
+[Term]
+id: CO_343:0003032
+name: Intensity of tuber flesh oxidation estimation at 0 minutes 0-3 scale
+namespace: YamTrait
+def: "The tuber flesh oxidation is visually assessed at 0 minutes using a scale of 0-3 where 0= no oxidization, 1= slightly oxidizing, and 3= highly oxidizing" []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000437 ! tuber flesh oxidation intensity
+relationship: variable_of CO_343:0010154 ! tuber flesh oxidation intensity-estimation
+relationship: variable_of CO_343:0100048 ! 0-3 scale
+
+[Term]
+id: CO_343:0003033
+name: Intensity of tuber flesh oxidation estimation at 30 minutes 0-3 scale
+namespace: YamTrait
+def: "The tuber flesh oxidation is visually assessed at 30 minutes using a scale of 0-3 where 0= no oxidization, 1= slightly oxidizing, and 3= highly oxidizing" []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000437 ! tuber flesh oxidation intensity
+relationship: variable_of CO_343:0010154 ! tuber flesh oxidation intensity-estimation
+relationship: variable_of CO_343:0100048 ! 0-3 scale
+
+[Term]
+id: CO_343:0003034
+name: Intensity of tuber flesh oxidation estimation at 60 minutes 0-3 scale
+namespace: YamTrait
+def: "The tuber flesh oxidation is visually assessed at 60 minutes using a scale of 0-3 where 0= no oxidization, 1= slightly oxidizing, and 3= highly oxidizing" []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000437 ! tuber flesh oxidation intensity
+relationship: variable_of CO_343:0010154 ! tuber flesh oxidation intensity-estimation
+relationship: variable_of CO_343:0100048 ! 0-3 scale
+
+[Term]
+id: CO_343:0003035
+name: Intensity of tuber flesh oxidation estimation at 180 minutes 0-3 scale
+namespace: YamTrait
+def: "The tuber flesh oxidation is visually assessed at 180 minutes using a scale of 0-3 where 0= no oxidization, 1= slightly oxidizing, and 3= highly oxidizing" []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000437 ! tuber flesh oxidation intensity
+relationship: variable_of CO_343:0010154 ! tuber flesh oxidation intensity-estimation
+relationship: variable_of CO_343:0100048 ! 0-3 scale
 
 [Term]
 id: CO_343:0010000
