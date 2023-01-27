@@ -2,7 +2,7 @@ format-version: 1.2
 auto-generated-by: java
 default-namespace: yam_trait_ontology
 ontology: TEMP
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003028> \"CO_343:0000432\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003029> \"CO_343:0010149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003030> \"CO_343:0000453\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003031> \"CO_343:0010163\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003032> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003033> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003034> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003035> \"CO_343:0000438\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003028> \"CO_343:0000432\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003029> \"CO_343:0010149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003030> \"CO_343:0000453\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003031> \"CO_343:0010163\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003032> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003033> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003034> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003035> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003036> \"CO_343:0000439\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003037> \"CO_343:0000453\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003038> \"CO_343:0010163\"^^xsd:string)\n)
 
 [Term]
 id: CO_343:0000000
@@ -542,7 +542,7 @@ created_by: A. Lopez-Montes
 
 [Term]
 id: CO_343:0000188
-name: tuber appearance
+name: tuber morphological appearance
 namespace: YamTrait
 def: "Tuber surface look in relation to presence or absence of roots, thorns and sprouted buds on the tuber surface" []
 synonym: "Tbrappr" EXACT []
@@ -2682,7 +2682,7 @@ namespace: YamTrait
 def: "Visual observation of the presence of roots, thorns, and sprouted buds observed on tuber surface and making a visual score using a 1-4 scale where 1= Rough, 2= Hairy (few scattered or many roots in the surface of the tuber), 3= Thorny (small prominences ending in a small thorn) and 4= Fully smooth" []
 synonym: "Tbrappr_E_1to4" EXACT []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0000188 ! tuber appearance
+relationship: variable_of CO_343:0000188 ! tuber morphological appearance
 relationship: variable_of CO_343:0010127 ! tuber surface appearance - estimation
 relationship: variable_of CO_343:0100023 ! 1-4 scale
 
@@ -4105,6 +4105,33 @@ relationship: variable_of CO_343:0010154 ! tuber flesh oxidation intensity-estim
 relationship: variable_of CO_343:0100048 ! 0-3 scale
 
 [Term]
+id: CO_343:0003036
+name: tuber appearance quality
+namespace: YamTrait
+def: "The quality of the tuber appearance" []
+is_a: CO_343:1000007 ! Quality_trait
+created_by: Naama
+
+[Term]
+id: CO_343:0003037
+name: boiled yam appearance 1-5 scale
+namespace: YamTrait
+def: "The appearance of the boiled yam is evaluated using a 1 - 5 scale  Where (1-5 scale): 1= Dislike extremely; 2=Dislike; 3=Neither like nor dislike; 4=Like; 5=Like extremely." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003036 ! tuber appearance quality
+relationship: variable_of CO_343:0003038 ! appearance of boiled yam - estimation
+relationship: variable_of CO_343:0100008 ! 1-5 scale
+created_by: Agre
+
+[Term]
+id: CO_343:0003038
+name: appearance of boiled yam - estimation
+namespace: YamMethod
+def: "Score appearance of boiled yam using sensory test panalist" []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of CO_343:0000194 ! yam taste trait
+
+[Term]
 id: CO_343:0010000
 name: tubers (seed yams or setts) planted - counting
 namespace: YamMethod
@@ -5126,7 +5153,7 @@ name: tuber surface appearance - estimation
 namespace: YamMethod
 def: "Observe the appearance of roots, thones and srout buds on surface of harvested tubers and make visual score using scale" []
 is_a: CO_343:1000014 ! Estimation
-relationship: method_of CO_343:0000188 ! tuber appearance
+relationship: method_of CO_343:0000188 ! tuber morphological appearance
 
 [Term]
 id: CO_343:0010128
