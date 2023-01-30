@@ -2,6 +2,7 @@ format-version: 1.2
 auto-generated-by: java
 default-namespace: yam_trait_ontology
 ontology: TEMP
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003028> \"CO_343:0000432\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003029> \"CO_343:0010149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003030> \"CO_343:0000453\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003031> \"CO_343:0010163\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003032> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003033> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003034> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003035> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003036> \"CO_343:0000439\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003037> \"CO_343:0000453\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003038> \"CO_343:0010163\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003039> \"CO_343:0000439\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003040> \"CO_343:0000453\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003041> \"CO_343:0010163\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003042> \"CO_343:0002007\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003043> \"CO_343:0100003\"^^xsd:string)\n)
 
 [Term]
 id: CO_343:0000000
@@ -541,7 +542,7 @@ created_by: A. Lopez-Montes
 
 [Term]
 id: CO_343:0000188
-name: tuber appearance
+name: tuber morphological appearance
 namespace: YamTrait
 def: "Tuber surface look in relation to presence or absence of roots, thorns and sprouted buds on the tuber surface" []
 synonym: "Tbrappr" EXACT []
@@ -560,9 +561,9 @@ created_by: A. Lopez-Montes
 
 [Term]
 id: CO_343:0000194
-name: taste of pounded yam
+name: yam taste trait
 namespace: YamTrait
-def: "Taste of pounded yam when eaten without any additional complementary food" []
+def: "Taste of yam when eaten without any additional complementary food" []
 synonym: "Con_Taste_PY" EXACT []
 synonym: "TastePndedYam" EXACT []
 is_a: CO_343:1000007 ! Quality_trait
@@ -2681,7 +2682,7 @@ namespace: YamTrait
 def: "Visual observation of the presence of roots, thorns, and sprouted buds observed on tuber surface and making a visual score using a 1-4 scale where 1= Rough, 2= Hairy (few scattered or many roots in the surface of the tuber), 3= Thorny (small prominences ending in a small thorn) and 4= Fully smooth" []
 synonym: "Tbrappr_E_1to4" EXACT []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0000188 ! tuber appearance
+relationship: variable_of CO_343:0000188 ! tuber morphological appearance
 relationship: variable_of CO_343:0010127 ! tuber surface appearance - estimation
 relationship: variable_of CO_343:0100023 ! 1-4 scale
 
@@ -3175,7 +3176,7 @@ created_by: A.Amele
 
 [Term]
 id: CO_343:0000440
-name: Tuber flesh texture estimation 1-3
+name: Fresh tuber flesh texture estimation 1-3
 namespace: YamTrait
 def: "The texture of tuber flesh is recorded using a 1-3 scale where 1= smooth, 2=grainy and 3= very grainy" []
 synonym: "Txf_E_1to3" EXACT []
@@ -3313,13 +3314,13 @@ relationship: variable_of CO_343:0100011 ! 1-3 general scale
 
 [Term]
 id: CO_343:0000453
-name: Taste estimation 1-5
+name: Taste estimation of pounded yam 1-5 scale
 namespace: YamTrait
 def: "The taste of pounded yam without any additional complementary food is scored using sensory test panalist with a scale of 1-5 where 1= very bitter, 2= Slightly bitter, 3= Neutral, 4= sweet and 5= very sweet" []
 synonym: "Con_Taste_PY" EXACT []
 synonym: "TastPdym_E_1to5" EXACT []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0000194 ! taste of pounded yam
+relationship: variable_of CO_343:0000194 ! yam taste trait
 relationship: variable_of CO_343:0010163 ! taste of pounded yam - estimation
 relationship: variable_of CO_343:0100008 ! 1-5 scale
 
@@ -3932,6 +3933,248 @@ is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:0000021 ! yam anthracnose disease severity
 relationship: variable_of CO_343:0003015 ! 'Area under disease progression curve for yam mosaic virus calculation'
 relationship: variable_of CO_343:0003016 ! 'AUDPC for for yam mosaic virus disease'
+
+[Term]
+id: CO_343:0003018
+name: Tuber flesh color L value chromameter read
+namespace: YamTrait
+def: "The tuber flesh color L value indicates lightness which represents quantitative relationship of colors on three axes. Colour reading using chromameter machine." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000147 ! tuber flesh color
+relationship: variable_of CO_343:0003019 ! Tuber flesh color computation L value from chromameter machine
+relationship: variable_of CO_343:0100227 ! unitless
+created_by: Agre {comment="dateTime"}
+
+[Term]
+id: CO_343:0003019
+name: Tuber flesh color computation L value from chromameter machine
+namespace: YamMethod
+def: "Compute the L value of the flesh surface color of tuber longitudinal section using chromameter machine" []
+is_a: CO_343:1000013 ! Computation
+relationship: variable_of CO_343:0000147 ! tuber flesh color
+
+[Term]
+id: CO_343:0003020
+name: Tuber flesh color A value chromameter read
+namespace: YamTrait
+def: "The tuber flesh color A value indicates lightness which represents quantitative relationship of colors on three axes. Colour reading using chromameter machine." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000147 ! tuber flesh color
+relationship: variable_of CO_343:0003021 ! Tuber flesh color computation A value from chromameter machine
+relationship: variable_of CO_343:0100227 ! unitless
+created_by: Agre
+
+[Term]
+id: CO_343:0003021
+name: Tuber flesh color computation A value from chromameter machine
+namespace: YamMethod
+def: "Compute the A value of the flesh surface color of tuber longitudinal section using chromameter machine" []
+is_a: CO_343:1000013 ! Computation
+relationship: variable_of CO_343:0000147 ! tuber flesh color
+
+[Term]
+id: CO_343:0003022
+name: Tuber flesh color B value chromameter read
+namespace: YamTrait
+def: "The tuber flesh color B value indicates lightness which represents quantitative relationship of colors on three axes. Colour reading using chromameter machine." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000147 ! tuber flesh color
+relationship: variable_of CO_343:0003023 ! Tuber flesh color computation B value from chromameter machine
+relationship: variable_of CO_343:0100227 ! unitless
+created_by: Agre
+
+[Term]
+id: CO_343:0003023
+name: Tuber flesh color computation B value from chromameter machine
+namespace: YamMethod
+def: "Compute the B value of the flesh surface color of tuber longitudinal section using chromameter machine" []
+is_a: CO_343:1000013 ! Computation
+relationship: variable_of CO_343:0000147 ! tuber flesh color
+
+[Term]
+id: CO_343:0003024
+name: Yam tuber mealiness
+namespace: YamTrait
+def: "tuber mealiness traits" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0003025
+name: boiled tuber mealiness estimation
+namespace: YamMethod
+def: "The Mealiness of the boiled tuber is evaluated by a group of an individual using a (1 - 3 scale) as 1=soggy, 2= slightly mealy, 3= mealy" []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of boiled_tuber_mealiness_estimation_1-3_scale
+
+[Term]
+id: CO_343:0003026
+name: boiled tuber mealiness estimation 1-3 scale
+namespace: YamTrait
+def: "The Mealiness of the boiled tuber is evaluated by a group of an individual using a (1 - 3 scale) as 1=soggy, 2= slightly mealy, 3= mealy." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003024 ! Yam tuber mealiness
+relationship: variable_of CO_343:0010145 ! corm size-estimation
+relationship: variable_of CO_343:0100011 ! 1-3 general scale
+
+[Term]
+id: CO_343:0003027
+name: boiled tuber flesh texture estimation 1-3
+namespace: YamTrait
+def: "The texture of the boiled tuber is evaluated by a panel of individuals using (1-3 scale): Texture 1= strong; 2= intermediate; 3= soft" []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000439 ! tuber flesh texture
+relationship: variable_of CO_343:0010155 ! tuber flesh texture-estimation
+relationship: variable_of CO_343:0100022 ! 1-3 scale
+
+[Term]
+id: CO_343:0003028
+name: Boiled tuber color preference evaluation 1-5 scale
+namespace: YamTrait
+def: "The colour of the boiled yam is evaluated using a 1-5 scale: 1= Dislike extremely; 2=Dislike; 3=Neither like nor dislike; 4=Like; 5=Like extremely." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000147 ! tuber flesh color
+relationship: variable_of CO_343:0003029 ! boiled tuber flesh color - estimation
+relationship: variable_of CO_343:0100008 ! 1-5 scale
+
+[Term]
+id: CO_343:0003029
+name: boiled tuber flesh color - estimation
+namespace: YamMethod
+def: "the colour of the boiled yam - visual evaluation" []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of CO_343:0000147 ! tuber flesh color
+
+[Term]
+id: CO_343:0003030
+name: Taste estimation of boiled yam 1-5 scale
+namespace: YamTrait
+def: "The taste of boiled yam without any additional complementary food is scored using sensory test panelist with a scale of 1-5 where 1= very bitter, 2= Slightly bitter, 3= Neutral, 4= sweet and 5= very sweet" []
+synonym: "Con_Taste_PY" EXACT []
+synonym: "TastPdym_E_1to5" EXACT []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000194 ! yam taste trait
+relationship: variable_of CO_343:0003031 ! taste of boiled yam - estimation
+relationship: variable_of CO_343:0100008 ! 1-5 scale
+
+[Term]
+id: CO_343:0003031
+name: taste of boiled yam - estimation
+namespace: YamMethod
+def: "Score taste of boiled yam using sensory test panalist" []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of CO_343:0000194 ! yam taste trait
+
+[Term]
+id: CO_343:0003032
+name: Intensity of tuber flesh oxidation estimation at 0 minutes 0-3 scale
+namespace: YamTrait
+def: "The tuber flesh oxidation is visually assessed at 0 minutes using a scale of 0-3 where 0= no oxidization, 1= slightly oxidizing, and 3= highly oxidizing" []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000437 ! tuber flesh oxidation intensity
+relationship: variable_of CO_343:0010154 ! tuber flesh oxidation intensity-estimation
+relationship: variable_of CO_343:0100048 ! 0-3 scale
+
+[Term]
+id: CO_343:0003033
+name: Intensity of tuber flesh oxidation estimation at 30 minutes 0-3 scale
+namespace: YamTrait
+def: "The tuber flesh oxidation is visually assessed at 30 minutes using a scale of 0-3 where 0= no oxidization, 1= slightly oxidizing, and 3= highly oxidizing" []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000437 ! tuber flesh oxidation intensity
+relationship: variable_of CO_343:0010154 ! tuber flesh oxidation intensity-estimation
+relationship: variable_of CO_343:0100048 ! 0-3 scale
+
+[Term]
+id: CO_343:0003034
+name: Intensity of tuber flesh oxidation estimation at 60 minutes 0-3 scale
+namespace: YamTrait
+def: "The tuber flesh oxidation is visually assessed at 60 minutes using a scale of 0-3 where 0= no oxidization, 1= slightly oxidizing, and 3= highly oxidizing" []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000437 ! tuber flesh oxidation intensity
+relationship: variable_of CO_343:0010154 ! tuber flesh oxidation intensity-estimation
+relationship: variable_of CO_343:0100048 ! 0-3 scale
+
+[Term]
+id: CO_343:0003035
+name: Intensity of tuber flesh oxidation estimation at 180 minutes 0-3 scale
+namespace: YamTrait
+def: "The tuber flesh oxidation is visually assessed at 180 minutes using a scale of 0-3 where 0= no oxidization, 1= slightly oxidizing, and 3= highly oxidizing" []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000437 ! tuber flesh oxidation intensity
+relationship: variable_of CO_343:0010154 ! tuber flesh oxidation intensity-estimation
+relationship: variable_of CO_343:0100048 ! 0-3 scale
+
+[Term]
+id: CO_343:0003036
+name: tuber appearance quality
+namespace: YamTrait
+def: "The quality of the tuber appearance" []
+is_a: CO_343:1000007 ! Quality_trait
+created_by: Naama
+
+[Term]
+id: CO_343:0003037
+name: boiled yam appearance 1-5 scale
+namespace: YamTrait
+def: "The appearance of the boiled yam is evaluated using a 1 - 5 scale  Where (1-5 scale): 1= Dislike extremely; 2=Dislike; 3=Neither like nor dislike; 4=Like; 5=Like extremely." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003036 ! tuber appearance quality
+relationship: variable_of CO_343:0003038 ! appearance of boiled yam - estimation
+relationship: variable_of CO_343:0100008 ! 1-5 scale
+created_by: Agre
+
+[Term]
+id: CO_343:0003038
+name: appearance of boiled yam - estimation
+namespace: YamMethod
+def: "Score appearance of boiled yam using sensory test panalist" []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of CO_343:0000194 ! yam taste trait
+
+[Term]
+id: CO_343:0003039
+name: tuber aroma
+namespace: YamTrait
+def: "Yam tuber aroma traits" []
+is_a: CO_343:1000007 ! Quality_trait
+created_by: Naama
+
+[Term]
+id: CO_343:0003040
+name: boiled yam tuber aroma estimation 1-5 scale
+namespace: YamTrait
+def: "The aroma of the boiled yam is evaluated using a 1 - 5 scale  Where (1-5 scale): 1= Dislike extremely; 2=Dislike; 3=Neither like nor dislike; 4=Like; 5=Like extremely." []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0003039 ! tuber aroma
+relationship: variable_of CO_343:0003041 ! aroma of boiled yam - estimation
+relationship: variable_of CO_343:0100008 ! 1-5 scale
+created_by: Agre
+
+[Term]
+id: CO_343:0003041
+name: aroma of boiled yam - estimation
+namespace: YamMethod
+def: "Score the aroma of boiled yam using sensory test panalist" []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of CO_343:0000194 ! yam taste trait
+
+[Term]
+id: CO_343:0003042
+name: Peak viscosity measurement in minutes
+namespace: YamTrait
+def: "The value of peak viscosity can explain the water-holding capacity of the starch or mixture. Measured in minutes." []
+synonym: "pkvsc" EXACT []
+is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0002000 ! peak viscosity
+relationship: variable_of CO_343:0003043 ! minutes
+relationship: variable_of CO_343:0012000 ! peak viscosity - measurement
+
+[Term]
+id: CO_343:0003043
+name: minutes
+namespace: YamScale
+is_a: CO_343:1000018 ! Duration
+relationship: scale_of CO_343:0012000 ! peak viscosity - measurement
 
 [Term]
 id: CO_343:0010000
@@ -4955,7 +5198,7 @@ name: tuber surface appearance - estimation
 namespace: YamMethod
 def: "Observe the appearance of roots, thones and srout buds on surface of harvested tubers and make visual score using scale" []
 is_a: CO_343:1000014 ! Estimation
-relationship: method_of CO_343:0000188 ! tuber appearance
+relationship: method_of CO_343:0000188 ! tuber morphological appearance
 
 [Term]
 id: CO_343:0010128
@@ -5243,7 +5486,7 @@ name: taste of pounded yam - estimation
 namespace: YamMethod
 def: "Score taste of pounded yam using sensory test panalist" []
 is_a: CO_343:1000014 ! Estimation
-relationship: method_of CO_343:0000194 ! taste of pounded yam
+relationship: method_of CO_343:0000194 ! yam taste trait
 
 [Term]
 id: CO_343:0010164
@@ -6255,17 +6498,10 @@ name: Tuber flesh color computation
 namespace: YamTrait
 def: "The tuber flesh color computation from standardized image" []
 is_a: CO_343:1000003 ! Variable
+relationship: variable_of CO_343:0000147 ! tuber flesh color
 relationship: variable_of CO_343:0100227 ! unitless
-relationship: variable_of CO_343:0100238 ! Tuber flesh color
 relationship: variable_of CO_343:0100239 ! Tuber flesh color computation from standardized image L*a*b* values
 created_by: D. Cornut
-
-[Term]
-id: CO_343:0100238
-name: Tuber flesh color
-namespace: YamTrait
-def: "The surface color of the yam tuber flesh" []
-is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
 id: CO_343:0100239
@@ -6273,7 +6509,7 @@ name: Tuber flesh color computation from standardized image L*a*b* values
 namespace: YamMethod
 def: "Compute the average of the flesh surface color of tuber longitudinal section using image analysis with a color correction based on a custom color chart " []
 is_a: CO_343:1000013 ! Computation
-relationship: method_of CO_343:0100238 ! Tuber flesh color
+relationship: variable_of CO_343:0000147 ! tuber flesh color
 
 [Term]
 id: CO_343:0100240
