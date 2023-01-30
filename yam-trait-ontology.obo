@@ -4004,7 +4004,7 @@ name: boiled tuber mealiness estimation
 namespace: YamMethod
 def: "The Mealiness of the boiled tuber is evaluated by a group of an individual using a (1 - 3 scale) as 1=soggy, 2= slightly mealy, 3= mealy" []
 is_a: CO_343:1000014 ! Estimation
-relationship: method_of boiled_tuber_mealiness_estimation_1-3_scale
+relationship: method_of CO_343:0003026
 
 [Term]
 id: CO_343:0003026
@@ -6905,4 +6905,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
