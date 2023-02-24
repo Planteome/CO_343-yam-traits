@@ -374,7 +374,7 @@ id: CO_343:0000180
 name: yam seeds set per fruit trait
 def: "Number of seeds developed per fruit after hand flowers pollination" [CO:curators]
 synonym: "SdSet" EXACT []
-is_a: TO:0000894
+is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_343:0000183
