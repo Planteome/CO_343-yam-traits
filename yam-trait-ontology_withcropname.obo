@@ -1331,7 +1331,7 @@ name: yam time to maturity trait
 def: "Length of time toward crop maturity" [CO:curators]
 synonym: "Growing degree days" EXACT []
 synonym: "Mat" EXACT []
-is_a: TO:0000366
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_343:0000311
@@ -1347,7 +1347,7 @@ name: yam senescenece class trait
 def: "Foliage senescence or maturity class" [CO:curators]
 synonym: "Maturity class" EXACT []
 synonym: "SE" EXACT []
-is_a: TO:0000469
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_343:0000313
