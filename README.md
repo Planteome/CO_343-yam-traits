@@ -1,4 +1,5 @@
 # CO_343-yam-traits
+[![DOI](https://zenodo.org/badge/108037173.svg)](https://zenodo.org/badge/latestdoi/108037173)
 
 Yam Trait Ontology is maintained by http://www.cropontology.org and https://yambase.org
 
