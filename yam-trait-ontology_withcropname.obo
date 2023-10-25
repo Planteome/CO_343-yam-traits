@@ -136,7 +136,7 @@ id: CO_343:0000063
 name: yam sprout color trait
 def: "Color of the sprout (vine and leaves)." [CO:curators]
 synonym: "SprtCol" EXACT []
-is_a: TO:0000739 ! shoot axis morphology trait
+is_a: TO:0000739
 
 [Term]
 id: CO_343:0000066
@@ -215,7 +215,7 @@ id: CO_343:0000099
 name: yam fruit set number trait
 def: "Intensity or proportion of fruit set or development under open or controlled pollination." [CO:curators]
 synonym: "NFrtSet" EXACT []
-is_a: TO:0000852 ! fruit set trait
+is_a: TO:0000852
 
 [Term]
 id: CO_343:0000105
@@ -374,7 +374,7 @@ id: CO_343:0000180
 name: yam seeds set per fruit trait
 def: "Number of seeds developed per fruit after hand flowers pollination" [CO:curators]
 synonym: "SdSet" EXACT []
-is_a: TO:0000445 ! fruit seed number
+is_a: TO:0000445
 
 [Term]
 id: CO_343:0000183
@@ -544,7 +544,7 @@ id: CO_343:0000212
 name: yam sprout length trait
 def: "Length of sprouted shoots (vines)" [CO:curators]
 synonym: "Spleng" EXACT []
-is_a: TO:0000739 ! shoot axis morphology trait
+is_a: TO:0000739
 
 [Term]
 id: CO_343:0000213
@@ -590,7 +590,7 @@ id: CO_343:0000218
 name: yam sprout hairiness trait
 def: "Hairs on sprout (vines)" [CO:curators]
 synonym: "HAIRSP" EXACT []
-is_a: TO:0000739 ! shoot axis morphology trait
+is_a: TO:0000739
 
 [Term]
 id: CO_343:0000219
@@ -714,7 +714,7 @@ id: CO_343:0000234
 name: yam spines on stem density trait
 def: "Intensity of spines on stem (vine) above base of mature plant (5 to 6 month old plant)" [CO:curators]
 synonym: "SPNAB" EXACT []
-is_a: TO:0000739 ! shoot axis morphology trait
+is_a: TO:0000739
 
 [Term]
 id: CO_343:0000235
@@ -1085,7 +1085,7 @@ id: CO_343:0000279
 name: yam status of fruit development trait
 def: "Fruit development status on monoecious and female flower of dioeciouse yam plant" [CO:curators]
 synonym: "FrtDev" EXACT []
-is_a: TO:0000852 ! fruit set trait
+is_a: TO:0000852
 
 [Term]
 id: CO_343:0000280
@@ -1331,7 +1331,7 @@ name: yam time to maturity trait
 def: "Length of time toward crop maturity" [CO:curators]
 synonym: "Growing degree days" EXACT []
 synonym: "Mat" EXACT []
-is_a: TO:0000469 ! days to maturity
+is_a: TO:0000469
 
 [Term]
 id: CO_343:0000311
@@ -1347,7 +1347,7 @@ name: yam senescenece class trait
 def: "Foliage senescence or maturity class" [CO:curators]
 synonym: "Maturity class" EXACT []
 synonym: "SE" EXACT []
-is_a: TO:0000469 ! days to maturity
+is_a: TO:0000469
 
 [Term]
 id: CO_343:0000313
@@ -1528,7 +1528,7 @@ name: yam number of bulbil trait
 def: "Number of bulbils or aerial tubers produced" [CO:curators]
 synonym: "Bulbpl" EXACT []
 synonym: "Number of aerial tuber" EXACT []
-is_a: TO:0000739 ! shoot axis morphology trait
+is_a: TO:0000739
 
 [Term]
 id: CO_343:0000334
@@ -1545,7 +1545,7 @@ name: yam bulbil shape trait
 def: "Predominant shape of the bulbils" [CO:curators]
 synonym: "Aerial tuber shape" EXACT []
 synonym: "Bulbsp" EXACT []
-is_a: TO:0000739 ! shoot axis morphology trait
+is_a: TO:0000739
 
 [Term]
 id: CO_343:0000336
@@ -4180,10 +4180,6 @@ relationship: scale_of CO_343:0010168 ! yam stem height - computation method
 id: CO_343:0100053
 name: yam number of leaf scale
 relationship: scale_of CO_343:0010169 ! yam number of leaves - computation method
-
-[Term]
-id: TO:0000469
-is_a: CO_343:0000310 ! yam time to maturity trait
 
 [Typedef]
 id: method_of
