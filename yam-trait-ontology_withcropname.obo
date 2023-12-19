@@ -49,9 +49,10 @@ is_a: TO:0000250
 [Term]
 id: CO_343:0000021
 name: yam anthracnose disease severity trait
-def: "Anthracnose severity caused by the pathogen Colletotricum gloeosporioides. The reaction of plants in a plot to anthracnose infestation (blight or leaf spot) under screenhouse or in the field under natural infestation or artificial inoculation" [CO:curators]
+def: "Anthracnose severity caused by the pathogen Colletotricum gloeosporioides. 
+comment: The reaction of plants in a plot to anthracnose infestation (blight or leaf spot) under screenhouse or in the field under natural infestation or artificial inoculation" [CO:curators, NCBITaxon:474922]
 synonym: "YADS" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_343:0000024
@@ -84,30 +85,30 @@ is_a: TO:0000654
 [Term]
 id: CO_343:0000042
 name: yam tuber dry rot incidence trait
-def: "Dry rot caused by nematodes (Scutellonema bradys and Practylenchus spp.) in tubers at harvest" [CO:curators]
+def: "Dry rot caused by nematodes (Scutellonema bradys and Pratylenchus spp.) in tubers at harvest" [CO:curators, NCBITaxon:6231]
 synonym: "Dryrot" EXACT []
-is_a: TO:0000439
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_343:0000045
 name: yam tuber dry rot severity trait
-def: "Dry rot caused by nematodes (Scutellonema bradys and Practylenchus spp.) in tubers at harvest" [CO:curators]
+def: "Dry rot caused by nematodes (Scutellonema bradys and Pratylenchus spp.) in tubers at harvest" [CO:curators, NCBITaxon:6231]
 synonym: "Dryrot" EXACT []
-is_a: TO:0000439
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_343:0000048
 name: yam root knot nematode incidence trait
 def: "Root knot incidence caused by Meloidogyne spp." [CO:curators]
 synonym: "RKNInc" EXACT []
-is_a: TO:0000384
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_343:0000051
 name: yam root knot nematode severity trait
 def: "Root knot severity caused by Meloidogyne spp." [CO:curators]
 synonym: "RKNSev" EXACT []
-is_a: TO:0000384
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_343:0000054
@@ -164,9 +165,10 @@ is_a: TO:0000953
 [Term]
 id: CO_343:0000075
 name: yam anthracnose disease incidence trait
-def: "Anthracnose incidence caused by the pathogen Colletotricum gloeosporioides. % of anthracnose ‘blight’ or ''leaf spot''affected plants in a plot" [CO:curators]
+def: "Anthracnose incidence caused by the pathogen Colletotricum gloeosporioides." [CO:curators, NCBITaxon:474922]
+comment: % of anthracnose ‘blight’ or ''leaf spot''affected plants in a plot
 synonym: "YADI" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_343:0000081
@@ -1361,9 +1363,9 @@ relationship: variable_of CO_343:0100032 ! yam 1-9 scale
 [Term]
 id: CO_343:0000314
 name: yam tuber dry rot presence trait
-def: "Dry rot caused by nematodes (Scutellonema bradys and Practylenchus spp.) in tubers at harvest" [CO:curators]
+def: "Dry rot caused by nematodes (Scutellonema bradys and Pratylenchus spp.) in tubers at harvest" [CO:curators]
 synonym: "Dryrot" EXACT []
-is_a: TO:0000439
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_343:0000315
