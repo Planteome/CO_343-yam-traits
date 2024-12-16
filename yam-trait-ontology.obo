@@ -2,7 +2,7 @@ format-version: 1.2
 auto-generated-by: java
 default-namespace: yam_trait_ontology
 ontology: TEMP
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003028> \"CO_343:0000432\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003029> \"CO_343:0010149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003030> \"CO_343:0000453\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003031> \"CO_343:0010163\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003032> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003033> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003034> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003035> \"CO_343:0000438\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003036> \"CO_343:0000439\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003037> \"CO_343:0000453\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003038> \"CO_343:0010163\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003039> \"CO_343:0000439\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003040> \"CO_343:0000453\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003041> \"CO_343:0010163\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003042> \"CO_343:0002007\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/TEMP.owl#CO_343:0003043> \"CO_343:0100003\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\n)
 
 [Term]
 id: CO_343:0000000
@@ -3655,6 +3655,60 @@ relationship: variable_of CO_343:0010178 ! petiole length - computation
 relationship: variable_of CO_343:0100009 ! cm
 
 [Term]
+id: CO_343:0000486
+name: Boiled yam appearance estimation 1-5 scale
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0000487
+name: Boiled yam texture estimation 1-5 scale
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0000488
+name: Boiled yam aroma estimation 1-5 scale
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0000489
+name: Boiled yam color estimation 1-5 scale
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0000490
+name: Boiled yam taste estimation 1-5 scale
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0000491
+name: Pounded yam appearance estimation 1-3 scale
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0000492
+name: Pounded yam texture estimation 1-3 scale
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0000493
+name: pounded yam aroma estimation 1-5 scale
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0000502
+name: yam starch breakdown RVT
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
 id: CO_343:0002000
 name: peak viscosity
 namespace: YamTrait
@@ -4004,7 +4058,7 @@ name: boiled tuber mealiness estimation
 namespace: YamMethod
 def: "The Mealiness of the boiled tuber is evaluated by a group of an individual using a (1 - 3 scale) as 1=soggy, 2= slightly mealy, 3= mealy" []
 is_a: CO_343:1000014 ! Estimation
-relationship: method_of CO_343:0003026
+relationship: method_of CO_343:0003026 ! boiled tuber mealiness estimation 1-3 scale
 
 [Term]
 id: CO_343:0003026
@@ -6160,6 +6214,96 @@ is_a: CO_343:1000019 ! Numerical
 relationship: scale_of CO_343:0010169 ! number of leaves - computation
 
 [Term]
+id: CO_343:0100057
+name: pounded yam color estimation 1-5 scale
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100058
+name: Boiled yam whiteness scale 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100059
+name: Boiled yam brownness scale 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100060
+name: Boiled yam purpleness scale 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100061
+name: Boiled yam black spots presence scale 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100062
+name: Boiled yam stickness scale 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100063
+name: Boiled yam hardness scale 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100064
+name: Boiled yam crumbness scale 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100065
+name: Boiled yam fibrousness scale 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100066
+name: Boiled yam granuleness 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100067
+name: Boiled yam chewingness scale 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100068
+name: Boiled yam odour scale 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100069
+name: Boiled yam sweetness 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100070
+name: Boiled yam bitterness 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100071
+name: Boiled yam bitter after taste 0-100
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
 id: CO_343:0100199
 name: Earliness of emergence computation in number of days from planting to 50% sprouts emergence
 namespace: YamTrait
@@ -6756,6 +6900,42 @@ name: µm
 namespace: YamScale
 is_a: CO_343:1000019 ! Numerical
 relationship: scale_of CO_343:0100266 ! Microscopy image analysis
+
+[Term]
+id: CO_343:0100268
+name: Pounded yam colour scale 1-9
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100269
+name: Pounded yam stretchability scale 0-10
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100270
+name: Pounded yam mouldability scale 0-10
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100271
+name: Pounded yam stickness scale 0-10
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100272
+name: Pounded yam hardness scale 0-10
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
+
+[Term]
+id: CO_343:0100273
+name: Pounded yam smoothness scale 0-10
+namespace: YamTrait
+is_a: CO_343:1000003 ! Variable
 
 [Term]
 id: CO_343:0102000
