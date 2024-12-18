@@ -2777,62 +2777,73 @@ name: yam starch breakdown trait
 def: "The breakdown of yam starch extracted from fresh tubers were determined using a Rapid Visco-Analyser (RVA-TecMaster, Perten Instruments, Australia)." [CO:curators]
 is_a: TO:0000374 ! starch breakdown viscosity
 
-CO_343:0002000
+[Term]
+id: CO_343:0002000
 name: yam peak viscosity trait
 def: "Maximum viscosity during the heating or hold phase of the RVA test. It describes the water-holding capacity of the starch." [CO:curators]
 synonym: "pkvisc"  EXACT []
 is_a: TO:0000409 ! starch peak viscosity trait
 
-CO_343:0002001
+[Term]
+id: CO_343:0002001
 name: yam trough viscosity trait
 def: "Trough viscosity is the ability of the starch granules to remain undisrupted when the yam paste is subjected to a hold period of constant high temperature and mechanical shear stress." [CO:curators]
 synonym: "tvisc"  EXACT []
 is_a: TO:0000374 ! starch breakdown viscosity
 
-CO_343:0002002
+C[Term]
+id: O_343:0002002
 name: yam final viscosity trait
 def: "Final viscosity is the ability of the material to form a viscous paste after cooking and cooling." [CO:curators]
 synonym: "fvisc" EXACT []
 is_a: TO:0000379 ! starch cool paste viscosity
 
-CO_343:0002003
+[Term]
+id: CO_343:0002003
 name: yam starch breakdown trait
 def: "Indicates the resistance of the starch paste to heat and shear." [CO:curators]
 synonym: "brkdown" EXACT []
 is_a: TO:0000374 ! starch breakdown viscosity
 
-CO_343:0002004
+[Term]
+id: CO_343:0002004
 name: yam starch setback trait
 def: "The tendency of starch pastes to recrystallize, and is an index of starch retrogradation or gelling ability.  Recovery of the viscosity during cooling of the heated starch suspension and is related to the retrogradation and reordering of starch molecules, i.e., low setback values indicate a low rate of starch retrogradation and syneresis. Mathematically, setback = ﬁnal viscosity–trough viscosity." [CO:curators]
 synonym: "setbck" EXACT []
 is_a: TO:0000412 ! starch setback viscosity
 
-CO_343:0002005
+[Term]
+id: CO_343:0002005
 name: yam pasting temperature trait
 def: "Measured at the onset of a rise in viscosity and may indicate the gelatinization temperature of the starch, thereby indicating the minimum temperature at which the starch should be cooked." [CO:curators]
 is_a: TO:0000462 ! starch gelatinization temperature
 
-CO_343:0003005
+[Term]
+id: CO_343:0003005
 name: hardness of pounded yam trait
 def: "Measurement of hardness of pounded yam." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
-CO_343:0003010
+[Term]
+id: CO_343:0003010
 name: mouldability of pounded yam
 def: "Ability of pounded yam to form a paste." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
-CO_343:0003024
+[Term]
+id: CO_343:0003024
 name: yam tuber mealiness
 def: "Tuber mealiness traits." [CO:curators]
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
-CO_343:0003036
+[Term]
+id: CO_343:0003036
 name: yam tuber appearance quality
 def: "The quality of the tuber appearance." [CO:curators]
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
-CO_343:0003039
+[Term]
+id: CO_343:0003039
 name: yam tuber aroma
 def: "Yam tuber aroma traits." [CO:curators]
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
