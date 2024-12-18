@@ -2791,7 +2791,7 @@ def: "Trough viscosity is the ability of the starch granules to remain undisrupt
 synonym: "tvisc"  EXACT []
 is_a: TO:0000374 ! starch breakdown viscosity
 
-C[Term]
+[Term]
 id: O_343:0002002
 name: yam final viscosity trait
 def: "Final viscosity is the ability of the material to form a viscous paste after cooking and cooling." [CO:curators]
