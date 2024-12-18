@@ -1380,7 +1380,7 @@ id: CO_343:0000316
 name: yam tuber dry rot incidence trait
 def: "Dry rot caused by nematodes (Scutellonema bradys and Practylenchus spp.) in tubers at harvest" [CO:curators]
 synonym: "Dryrot" EXACT []
-TO:0000384 ! nematode damage response trait
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_343:0000317
