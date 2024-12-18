@@ -4435,7 +4435,6 @@ name: Heterophylly presence trait
 def: "Presence of cataphylles during early stage" []
 is_a: TO:0000739 ! shoot axis morphology trait
 
-
 [Term]
 id: CO_343:0100212
 name: Number of nodes carrying cataphylles trait
@@ -4495,7 +4494,6 @@ id: CO_343:0100241
 name: Tuber flesh uniformity trait
 def: "Uniformity of tuber flesh surface color in longitudinal section" []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
-
 
 [Term]
 id: CO_343:0100244
