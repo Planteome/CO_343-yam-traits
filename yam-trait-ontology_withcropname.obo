@@ -767,7 +767,7 @@ name: yam twining habit trait
 def: "Tendency of climbing or trailling" [CO:curators]
 synonym: "trailling, climbing habit" EXACT []
 synonym: "TWNH" EXACT []
-is_a: TO:0000947 !	whole plant growth and development trait
+is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_343:0000241
@@ -784,7 +784,7 @@ name: yam twining direction trait
 def: "Twining direction" [CO:curators]
 synonym: "twndir" EXACT []
 synonym: "vine climbing direction" EXACT []
-is_a: TO:0000947 !	whole plant growth and development trait
+is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_343:0000243
@@ -1531,7 +1531,7 @@ name: yam number of bulbil trait
 def: "Number of bulbils or aerial tubers produced" [CO:curators]
 synonym: "Bulbpl" EXACT []
 synonym: "Number of aerial tuber" EXACT []
-is_a: TO:0001071 !	shoot axis tuber yield
+is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000334
@@ -2178,7 +2178,7 @@ id: CO_343:0000416
 name: yam tuber cracks trait
 def: "Cracks on tuber surface" [CO:curators]
 synonym: "CTBRS" EXACT []
-is_a: TO:0000742 !	subterranean shoot axis tuber morphology trait
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000417
@@ -2193,7 +2193,7 @@ id: CO_343:0000418
 name: yam crazy roots presence trait
 def: "Appearance of crazy roots on tuber surface" [CO:curators]
 synonym: "CRZROOT" EXACT []
-is_a: TO:0000742 !	subterranean shoot axis tuber morphology trait
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000419
@@ -2208,7 +2208,7 @@ id: CO_343:0000420
 name: yam corm on tuber trait
 def: "Presence or absence of corm on tuber" [CO:curators]
 synonym: "corm" EXACT []
-is_a: TO:0000742 !	subterranean shoot axis tuber morphology trait
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000421
@@ -2506,7 +2506,7 @@ name: yam leaf density trait
 def: "Variation in leaf mass of the plant" [CO:curators]
 synonym: "leaf abundance" EXACT []
 synonym: "Lfden" EXACT []
-is_a: TO:0000077 !	shoot system morphology trait
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_343:0000459
@@ -2759,21 +2759,21 @@ is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0000500
-name: pounded yam texture	trait
+name: pounded yam texture trait
 def: "The physical attributes of pounded yam such as soft or hard/strong, smooth or lumpy when sensed by touch in mouth or with hands." [CO:curators]
 synonym: "txtpoundedyam" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0000501
-name: pounded yam aroma	trait
+name: pounded yam aroma trait
 def: "The sense of smell or odor of pounded yam that reaches the nose before eating, or the pounded yam reaches the mouth." [CO:curators]
 synonym: "arompoundedyam" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0000503
-name: yam starch breakdown trait	
+name: yam starch breakdown trait
 def: "The breakdown of yam starch extracted from fresh tubers were determined using a Rapid Visco-Analyser (RVA-TecMaster, Perten Instruments, Australia)." [CO:curators]
 is_a: TO:0000374 ! starch breakdown viscosity
 
@@ -4488,38 +4488,38 @@ is_a: TO:0000933 ! plant phenological trait
 id: CO_343:0100238
 name: tuber flesh color
 def: "The surface color of the yam tuber flesh" []
-is_a: TO:0000742	subterranean shoot axis tuber morphology trait
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0100241
 name: Tuber flesh uniformity trait
 def: "Uniformity of tuber flesh surface color in longitudinal section" []
-is_a: TO:0000742	subterranean shoot axis tuber morphology trait
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 
 [Term]
 id: CO_343:0100244
 name: browness of the tuber flesh colour trait
 def: "The surface browness of the yam tuber flesh" []
-is_a: TO:0000742	subterranean shoot axis tuber morphology trait
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0100247
 name: Whitness of the flesh colour trait
 def: "The surface whiteness of the yam tuber flesh" []
-is_a: TO:0000742	subterranean shoot axis tuber morphology trait
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0100250
 name: yellowness of the flesh colour trait
 def: "The surface yellowness of the yam tuber flesh" []
-is_a: TO:0000742	subterranean shoot axis tuber morphology trait
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0100255
 name: Tuber flesh browning trait
 def: "Intensity of tuber flesh enzymatic oxidation (degree of flesh color change or browning of cut yam tuber)" []
-is_a: TO:0000742	subterranean shoot axis tuber morphology trait
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0100258
@@ -4585,13 +4585,13 @@ is_a: TO:0001068 ! processing quality trait
 id: CO_343:0100283
 name: tuber flesh oxidation trait
 def: "Oxidation ratio of flesh" []
-is_a: TO:0000742	subterranean shoot axis tuber morphology trait
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0100284
 name: tuber shape regularity trait
 def: "Regularity of tuber shape" []
-is_a: TO:0000742	subterranean shoot axis tuber morphology trait
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Typedef]
 id: method_of
