@@ -2,7 +2,6 @@ format-version: 1.2
 auto-generated-by: java
 default-namespace: yam_trait_ontology
 ontology: TEMP
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> <http://purl.obolibrary.org/obo/CO_343_0003024> \"\"^^xsd:dateTime)\n)
 
 [Term]
 id: CO_343:0000000
@@ -3657,13 +3656,15 @@ relationship: variable_of CO_343:0100009 ! cm
 [Term]
 id: CO_343:0000486
 name: Boiled yam appearance estimation 1-5 scale
+def: "OBSOLETE replaced by CO_343:0003037 boiled yam appearance 1-5 scale" []
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+is_obsolete: true
 
 [Term]
 id: CO_343:0000487
 name: Boiled yam texture estimation 1-5 scale
+def: "1-5 scale: 1= Dislike extremely; 2=Dislike; 3=Neither like nor dislike; 4=Like; 5=Like extremely." []
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:1000007 ! Quality_trait
@@ -3671,23 +3672,26 @@ relationship: variable_of CO_343:1000007 ! Quality_trait
 [Term]
 id: CO_343:0000488
 name: Boiled yam aroma estimation 1-5 scale
+def: "OBSOLETE replaced by id: CO_343:0003040 boiled yam tuber aroma estimation 1-5 scale" []
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+is_obsolete: true
 
 [Term]
 id: CO_343:0000489
 name: Boiled yam color estimation 1-5 scale
+def: "OBSOLETE replaced by id: CO_343:0003028 Boiled tuber color preference evaluation 1-5 scale" []
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+is_obsolete: true
 
 [Term]
 id: CO_343:0000490
 name: Boiled yam taste estimation 1-5 scale
+def: "OBSOLETE replaced by id: CO_343:0003030 Taste estimation of boiled yam 1-5 scale" []
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+is_obsolete: true
 
 [Term]
 id: CO_343:0000491
@@ -3715,7 +3719,7 @@ id: CO_343:0000502
 name: yam starch breakdown RVT
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0002003 ! breakdown
 
 [Term]
 id: CO_343:0002000
