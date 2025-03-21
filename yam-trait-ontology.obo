@@ -3656,40 +3656,40 @@ relationship: variable_of CO_343:0100009 ! cm
 [Term]
 id: CO_343:0000486
 name: Boiled yam appearance estimation 1-5 scale
-def: "OBSOLETE replaced by CO_343:0003037 boiled yam appearance 1-5 scale" []
 namespace: YamTrait
+def: "OBSOLETE replaced by CO_343:0003037 boiled yam appearance 1-5 scale" []
 is_a: CO_343:1000003 ! Variable
 is_obsolete: true
 
 [Term]
 id: CO_343:0000487
 name: Boiled yam texture estimation 1-5 scale
-def: "1-5 scale: 1= Dislike extremely; 2=Dislike; 3=Neither like nor dislike; 4=Like; 5=Like extremely." []
 namespace: YamTrait
+def: "1-5 scale: 1= Dislike extremely; 2=Dislike; 3=Neither like nor dislike; 4=Like; 5=Like extremely." []
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:1000007 ! Quality_trait
 
 [Term]
 id: CO_343:0000488
 name: Boiled yam aroma estimation 1-5 scale
-def: "OBSOLETE replaced by id: CO_343:0003040 boiled yam tuber aroma estimation 1-5 scale" []
 namespace: YamTrait
+def: "OBSOLETE replaced by id: CO_343:0003040 boiled yam tuber aroma estimation 1-5 scale" []
 is_a: CO_343:1000003 ! Variable
 is_obsolete: true
 
 [Term]
 id: CO_343:0000489
 name: Boiled yam color estimation 1-5 scale
-def: "OBSOLETE replaced by id: CO_343:0003028 Boiled tuber color preference evaluation 1-5 scale" []
 namespace: YamTrait
+def: "OBSOLETE replaced by id: CO_343:0003028 Boiled tuber color preference evaluation 1-5 scale" []
 is_a: CO_343:1000003 ! Variable
 is_obsolete: true
 
 [Term]
 id: CO_343:0000490
 name: Boiled yam taste estimation 1-5 scale
-def: "OBSOLETE replaced by id: CO_343:0003030 Taste estimation of boiled yam 1-5 scale" []
 namespace: YamTrait
+def: "OBSOLETE replaced by id: CO_343:0003030 Taste estimation of boiled yam 1-5 scale" []
 is_a: CO_343:1000003 ! Variable
 is_obsolete: true
 
@@ -7119,3 +7119,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
