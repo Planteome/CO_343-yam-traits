@@ -6227,109 +6227,227 @@ is_a: CO_343:1000019 ! Numerical
 relationship: scale_of CO_343:0010169 ! number of leaves - computation
 
 [Term]
+id: CO_343:0100054
+name: pounded yam color
+namespace: YamTrait
+def: "Observe the optical color or pigementation of pounded yam and make visual score using scale how acceptable or appealing on table or plate to eat" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100055
+name: Color of pounded yam-Estimation
+namespace: YamMethod
+def: "Observe the optical color or pigementation of pounded yam and make visual score using scale how acceptable or appealing on table or plate to eat" []
+is_a: CO_343:1000014 ! Estimation
+relationship: method_of CO_343:0100054 ! pounded yam color
+
+[Term]
 id: CO_343:0100057
 name: pounded yam color estimation 1-5 scale
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100054 ! pounded yam color
 
 [Term]
 id: CO_343:0100058
 name: Boiled yam whiteness scale 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100072 ! Boiled yam whiteness
 
 [Term]
 id: CO_343:0100059
 name: Boiled yam brownness scale 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100073 ! Boiled yam browness
 
 [Term]
 id: CO_343:0100060
 name: Boiled yam purpleness scale 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100074 ! Boiled yam purpleness
 
 [Term]
 id: CO_343:0100061
 name: Boiled yam black spots presence scale 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100075 ! Boiled yam black spots presence
 
 [Term]
 id: CO_343:0100062
 name: Boiled yam stickness scale 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100076 ! Boiled yam stickness
 
 [Term]
 id: CO_343:0100063
 name: Boiled yam hardness scale 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100077 ! Boiled yam hardness
 
 [Term]
 id: CO_343:0100064
 name: Boiled yam crumbness scale 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100078 ! Boiled yam crumbness
 
 [Term]
 id: CO_343:0100065
 name: Boiled yam fibrousness scale 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100079 ! Boiled yam fibrousness
 
 [Term]
 id: CO_343:0100066
 name: Boiled yam granuleness 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100080 ! Boiled yam granuleness
 
 [Term]
 id: CO_343:0100067
 name: Boiled yam chewingness scale 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100081 ! Boiled yam easiness to chew
 
 [Term]
 id: CO_343:0100068
 name: Boiled yam odour scale 0-100
 namespace: YamTrait
+synonym: "BoilYamOdor" EXACT []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100082 ! Boiled yam odour
 
 [Term]
 id: CO_343:0100069
 name: Boiled yam sweetness 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100083 ! Boiled yam sweetness
 
 [Term]
 id: CO_343:0100070
 name: Boiled yam bitterness 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100084 ! Boiled yam bitterness
 
 [Term]
 id: CO_343:0100071
 name: Boiled yam bitter after taste 0-100
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100085 ! Boiled yam bitter after taste
+
+[Term]
+id: CO_343:0100072
+name: Boiled yam whiteness
+namespace: YamTrait
+def: "Both inner and outer colour can range from light yellowish (off-white) to white (pure white)" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100073
+name: Boiled yam browness
+namespace: YamTrait
+def: "Brown colour of product after cooking" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100074
+name: Boiled yam purpleness
+namespace: YamTrait
+def: "Purple colour tending to pink after cooking" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100075
+name: Boiled yam black spots presence
+namespace: YamTrait
+def: "Refers to the presence of small black points on the surface of product" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100076
+name: Boiled yam stickness
+namespace: YamTrait
+def: "Property related to the adhesion of the product between the fingers" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100077
+name: Boiled yam hardness
+namespace: YamTrait
+def: "Force required to cut/break with fork" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100078
+name: Boiled yam crumbness
+namespace: YamTrait
+def: "Property of the product to crumble or break between the fingers" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100079
+name: Boiled yam fibrousness
+namespace: YamTrait
+def: "Refers to the presence of fine fibers between the fingers and visible to the eye" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100080
+name: Boiled yam granuleness
+namespace: YamTrait
+def: "Refers to the presence of small grains during chewing" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100081
+name: Boiled yam easiness to chew
+namespace: YamTrait
+def: "Property related to the number of chews necessary to swallow the product" []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100082
+name: Boiled yam odour
+namespace: YamTrait
+def: "Odour of boiled yam" []
+synonym: "BoilYamOdor" EXACT []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100083
+name: Boiled yam sweetness
+namespace: YamTrait
+def: "Basic light sugary taste like a little glucose or sucrose in water solution" []
+synonym: "BoilYamSweet" EXACT []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100084
+name: Boiled yam bitterness
+namespace: YamTrait
+def: "Basic bitter taste like small quantity of quinine or caffeine in water" []
+synonym: "BoilYamBitt" EXACT []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100085
+name: Boiled yam bitter after taste
+namespace: YamTrait
+def: "Basic bitter taste like small quantity of quinine or caffeine in water" []
+synonym: "BoilYamBitteraft" EXACT []
+is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
 id: CO_343:0100199
@@ -7119,4 +7237,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
