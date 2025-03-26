@@ -552,9 +552,10 @@ created_by: A. Lopez-Montes
 id: CO_343:0000191
 name: stickiness of pounded yam
 namespace: YamTrait
-def: "The degree to which the pounded yam is adhesive or stick to the fingure, mouth surface and teeth" []
+def: "The degree to which the pounded yam is adhesive or stick to the finger, mouth surface and teeth" []
 synonym: "Con_Stick_PY" EXACT []
 synonym: "StickPndedYam" EXACT []
+synonym: "YamHdStic" EXACT []
 is_a: CO_343:1000007 ! Quality_trait
 created_by: A. Lopez-Montes
 
@@ -3263,8 +3264,9 @@ relationship: variable_of CO_343:0100027 ! 1-2 scale
 id: CO_343:0000448
 name: smoothness of pounded yam
 namespace: YamTrait
-def: "Smoothnessof the material, i.e., absence of lumps" []
+def: "Smoothness of the material, i.e., absence of lumps" []
 synonym: "smthpdym" EXACT []
+synonym: "YamHdSmot" EXACT []
 is_a: CO_343:1000007 ! Quality_trait
 created_by: A.Amele
 
@@ -3935,7 +3937,8 @@ created_by: D. Cornet
 id: CO_343:0003010
 name: Mouldability of pounded yam
 namespace: YamTrait
-def: "ability of pounded yam to form a paste" []
+def: "ability of pounded yam to form a paste. Ability of the pounded yam to stick together easily without disintegrating or cohesive and being easy to mould." []
+synonym: "YamHdMoul" EXACT []
 is_a: CO_343:1000007 ! Quality_trait
 created_by: D. Cornet
 
@@ -7051,22 +7054,23 @@ relationship: scale_of CO_343:0100266 ! Microscopy image analysis
 id: CO_343:0100268
 name: Pounded yam colour scale 1-9
 namespace: YamTrait
+synonym: "pounded yam color" EXACT []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100054 ! pounded yam color
 
 [Term]
 id: CO_343:0100269
 name: Pounded yam stretchability scale 0-10
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0100275 ! Pounded yam stretchability
 
 [Term]
 id: CO_343:0100270
 name: Pounded yam mouldability scale 0-10
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:1000007 ! Quality_trait
+relationship: variable_of CO_343:0003010 ! Mouldability of pounded yam
 
 [Term]
 id: CO_343:0100271
@@ -7088,6 +7092,22 @@ name: Pounded yam smoothness scale 0-10
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
 relationship: variable_of CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100275
+name: Pounded yam stretchability
+namespace: YamTrait
+def: "Ability of pounded yam to stretch when pulled apart with fingers" []
+synonym: "YamHdStr" EXACT []
+is_a: CO_343:1000007 ! Quality_trait
+
+[Term]
+id: CO_343:0100284
+name: Tuber shape regularity
+namespace: YamTrait
+def: "Regularity of tuber shape" []
+synonym: "TbrSh" EXACT []
+is_a: CO_343:1000007 ! Quality_trait
 
 [Term]
 id: CO_343:0102000
