@@ -3761,7 +3761,7 @@ created_by: aafolabi
 
 [Term]
 id: CO_343:0002004
-name: setback
+name: setback viscosity
 namespace: YamTrait
 def: "the tendency of starch pastes to recrystallize and is an index of starch retrogradation or gelling ability. Recovery of the viscosity during cooling of the heated starch suspension and is related to the retrogradation and reordering of starch molecules, i.e., low setback values indicate a low rate of starch retrogradation and syneresis. Mathematically, setback = ﬁnal viscosity–trough viscosity" []
 synonym: "setbck" EXACT []
@@ -3827,13 +3827,13 @@ relationship: variable_of CO_343:0102000 ! cP
 
 [Term]
 id: CO_343:0002011
-name: Setback measurement in centipoise
+name: Setback viscosity measurement in centipoise
 namespace: YamTrait
 def: "Tendency of starch pastes to recrystallize and is an index of starch retrogradation or gelling ability. Recovery of the viscosity during cooling of the heated starch suspension and is related to the retrogradation and reordering of starch molecules, i.e., low setback values indicate a low rate of starch retrogradation and syneresis. It is measured using Rapid Visco Analyzer in centipoise." []
 synonym: "setbck" EXACT []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0002004 ! setback
-relationship: variable_of CO_343:0012004 ! setback - measurement
+relationship: variable_of CO_343:0002004 ! setback viscosity
+relationship: variable_of CO_343:0012004 ! setback viscosity - measurement
 relationship: variable_of CO_343:0102000 ! cP
 
 [Term]
@@ -5712,11 +5712,11 @@ relationship: method_of CO_343:0002003 ! starch breakdown
 
 [Term]
 id: CO_343:0012004
-name: setback - measurement
+name: setback viscosity - measurement
 namespace: YamMethod
 def: "Measurement of the tendency of starch pastes to recrystallize and is an index of starch retrogradation or gelling ability using RVA" []
 is_a: CO_343:1000011 ! Measurement
-relationship: method_of CO_343:0002004 ! setback
+relationship: method_of CO_343:0002004 ! setback viscosity
 
 [Term]
 id: CO_343:0012005
@@ -7119,7 +7119,7 @@ relationship: scale_of CO_343:0012000 ! peak viscosity - measurement
 relationship: scale_of CO_343:0012001 ! trough viscosity - measurement
 relationship: scale_of CO_343:0012002 ! final viscosity - measurement
 relationship: scale_of CO_343:0012003 ! starch breakdown - measurement
-relationship: scale_of CO_343:0012004 ! setback - measurement
+relationship: scale_of CO_343:0012004 ! setback viscosity - measurement
 
 [Term]
 id: CO_343:0102001
