@@ -3721,7 +3721,7 @@ id: CO_343:0000502
 name: yam starch breakdown RVT
 namespace: YamTrait
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0002003 ! breakdown
+relationship: variable_of CO_343:0002003 ! starch breakdown
 
 [Term]
 id: CO_343:0002000
@@ -3752,7 +3752,7 @@ created_by: aafolabi
 
 [Term]
 id: CO_343:0002003
-name: breakdown
+name: starch breakdown
 namespace: YamTrait
 def: "Indicates the resistance of the starch paste to heat and shear" []
 synonym: "brkdown" EXACT []
@@ -3816,13 +3816,13 @@ relationship: variable_of CO_343:0102000 ! cP
 
 [Term]
 id: CO_343:0002010
-name: Breakdown measurement in centipoise
+name: Starch breakdown measurement in centipoise
 namespace: YamTrait
 def: "The resistance of the starch paste to heat and shear as measured using Rapid Visco Analyzer in centipoise." []
 synonym: "brkdown" EXACT []
 is_a: CO_343:1000003 ! Variable
-relationship: variable_of CO_343:0002003 ! breakdown
-relationship: variable_of CO_343:0012003 ! breakdown - measurement
+relationship: variable_of CO_343:0002003 ! starch breakdown
+relationship: variable_of CO_343:0012003 ! starch breakdown - measurement
 relationship: variable_of CO_343:0102000 ! cP
 
 [Term]
@@ -5704,11 +5704,11 @@ relationship: method_of CO_343:0002002 ! final viscosity
 
 [Term]
 id: CO_343:0012003
-name: breakdown - measurement
+name: starch breakdown - measurement
 namespace: YamMethod
 def: "Measurement of the resistance of the starch paste to heat and shear using RVA." []
 is_a: CO_343:1000011 ! Measurement
-relationship: method_of CO_343:0002003 ! breakdown
+relationship: method_of CO_343:0002003 ! starch breakdown
 
 [Term]
 id: CO_343:0012004
@@ -7118,7 +7118,7 @@ is_a: CO_343:1000019 ! Numerical
 relationship: scale_of CO_343:0012000 ! peak viscosity - measurement
 relationship: scale_of CO_343:0012001 ! trough viscosity - measurement
 relationship: scale_of CO_343:0012002 ! final viscosity - measurement
-relationship: scale_of CO_343:0012003 ! breakdown - measurement
+relationship: scale_of CO_343:0012003 ! starch breakdown - measurement
 relationship: scale_of CO_343:0012004 ! setback - measurement
 
 [Term]
@@ -7257,3 +7257,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
